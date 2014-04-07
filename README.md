@@ -7,5 +7,6 @@ I contributed something, yay!
 I contributed more!
 
 Team Burst
-
-Hello
+  Ryan Watkins
+  Nick Poon
+  Andrew Legaspino
