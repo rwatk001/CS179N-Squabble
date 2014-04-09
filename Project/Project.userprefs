@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Connect.js">
+    <Files>
+      <File FileName="Assets\Scripts\ClickGetPoint.js" Line="5" Column="1" />
+      <File FileName="Assets\Scripts\Score.js" Line="4" Column="2" />
+      <File FileName="Assets\Scripts\Connect.js" Line="15" Column="51" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
