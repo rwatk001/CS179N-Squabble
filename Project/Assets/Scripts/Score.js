@@ -1,5 +1,3 @@
-﻿static var scoreCount : int = 0;
-
-function Update () {
-	guiText.text = "Score: " + scoreCount;
+﻿function Update () {
+	guiText.text = SpawnBarrels.scoreString;
 }
