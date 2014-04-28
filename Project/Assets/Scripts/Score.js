@@ -1,3 +1,3 @@
 ﻿function Update () {
-	guiText.text = SpawnBarrels.scoreString;
+	guiText.text = ScoreCount.scoreString;
 }
