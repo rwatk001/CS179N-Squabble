@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0c3e06bb966da6449a65a89c50451548
+guid: 10c6b10df3d28b4449678c5622e603ed
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
@@ -7,24 +7,26 @@ ModelImporter:
     100002: group1
     100004: group2
     100006: group3
-    100008: pasted__pCube2
-    100010: pasted__pCube3
-    100012: pasted__pCube4
-    100014: pCube1
-    100016: pCube2
-    100018: pCube3
-    100020: //RootNode
+    100008: group4
+    100010: pasted__pCube2
+    100012: pasted__pCube3
+    100014: pasted__pCube4
+    100016: pCube1
+    100018: pCube2
+    100020: pCube3
+    100022: //RootNode
     400000: group
     400002: group1
     400004: group2
     400006: group3
-    400008: pasted__pCube2
-    400010: pasted__pCube3
-    400012: pasted__pCube4
-    400014: pCube1
-    400016: pCube2
-    400018: pCube3
-    400020: //RootNode
+    400008: group4
+    400010: pasted__pCube2
+    400012: pasted__pCube3
+    400014: pasted__pCube4
+    400016: pCube1
+    400018: pCube2
+    400020: pCube3
+    400022: //RootNode
     2300000: pasted__pCube2
     2300002: pasted__pCube3
     2300004: pasted__pCube4
@@ -69,7 +71,7 @@ ModelImporter:
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
-      cycleOffset: 120
+      cycleOffset: 0
       loop: 0
       loopTime: 0
       loopBlend: 0
@@ -95,31 +97,33 @@ ModelImporter:
         weight: 1
       - path: group3
         weight: 1
-      - path: group3/pasted__pCube2
+      - path: group3/group4
         weight: 1
-      - path: group3/pasted__pCube3
+      - path: group3/group4/pasted__pCube2
         weight: 1
-      - path: group3/pasted__pCube4
+      - path: group3/group4/pasted__pCube3
         weight: 1
-      - path: group3/pCube1
+      - path: group3/group4/pasted__pCube4
         weight: 1
-      - path: group3/pCube2
+      - path: group3/group4/pCube1
         weight: 1
-      - path: group3/pCube3
+      - path: group3/group4/pCube2
+        weight: 1
+      - path: group3/group4/pCube3
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
     - serializedVersion: 16
       name: run
       takeName: Take 001
-      firstFrame: 119
-      lastFrame: 180
+      firstFrame: 108
+      lastFrame: 130
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
       loopBlendPositionY: 0
@@ -143,31 +147,33 @@ ModelImporter:
         weight: 1
       - path: group3
         weight: 1
-      - path: group3/pasted__pCube2
+      - path: group3/group4
         weight: 1
-      - path: group3/pasted__pCube3
+      - path: group3/group4/pasted__pCube2
         weight: 1
-      - path: group3/pasted__pCube4
+      - path: group3/group4/pasted__pCube3
         weight: 1
-      - path: group3/pCube1
+      - path: group3/group4/pasted__pCube4
         weight: 1
-      - path: group3/pCube2
+      - path: group3/group4/pCube1
         weight: 1
-      - path: group3/pCube3
+      - path: group3/group4/pCube2
+        weight: 1
+      - path: group3/group4/pCube3
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: .00999999978
     meshCompression: 0
     addColliders: 0
-    importBlendShapes: 0
+    importBlendShapes: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 0
+    optimizeMeshForGPU: 1
     weldVertices: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001

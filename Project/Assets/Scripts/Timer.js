@@ -4,7 +4,7 @@ var timeString : String = "Time: ";
 static var gameOverSheep : boolean = false;
  
  function Start () {
- 	gameTimer = 2;
+ 	gameTimer = 30;
  	gameOverSheep = false;
  }
  

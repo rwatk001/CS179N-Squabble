@@ -1,15 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AddInScore.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Timer.js">
     <Files>
-      <File FileName="Assets\Scripts\FollowLine.js" Line="26" Column="78" />
-      <File FileName="Assets\Scripts\FollowLine.js" Line="69" Column="3" />
+      <File FileName="Assets\Scripts\Timer.js" Line="24" Column="2" />
+      <File FileName="Assets\Scripts\FollowLine.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\LineMouse.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\SpawnBarrels.js" Line="14" Column="20" />
-      <File FileName="Assets\Scripts\Score.js" Line="2" Column="40" />
-      <File FileName="Assets\Scripts\Timer.js" Line="7" Column="16" />
-      <File FileName="Assets\Scripts\ScoreCount.js" Line="16" Column="34" />
-      <File FileName="Assets\Scripts\CountSheepGO.js" Line="4" Column="20" />
+      <File FileName="Assets\Scripts\SpawnBarrels.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Score.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Timer.js" Line="7" Column="17" />
+      <File FileName="Assets\Scripts\ScoreCount.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CountSheepGO.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\AddInScore.js" Line="18" Column="68" />
       <File FileName="Assets\Scripts\LaunchLevel.js" Line="1" Column="1" />
     </Files>
