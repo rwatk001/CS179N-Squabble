@@ -9,7 +9,7 @@ function checkGO() {
 		guiText.text = "Time's Up, Bro!";
 		yield WaitForSeconds(3);
 		tallyScore = true;
-		Application.LoadLevel("ScoreBoard");
+		//Application.LoadLevel("ScoreBoard");
 	}
 }
 

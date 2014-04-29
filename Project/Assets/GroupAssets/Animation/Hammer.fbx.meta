@@ -1,0 +1,1910 @@
+fileFormatVersion: 2
+guid: e404aabe35cb14ff58b1f2d2766595a8
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Body_Control_N
+    100002: Body_Controls_N
+    100004: Body_CTRL
+    100006: BodyMid_Control_N
+    100008: BodyWires
+    100010: BosdyMid_CTRL
+    100012: BottLidCurve
+    100014: BottLidCurve_N
+    100016: BottLipCon_A
+    100018: BottLipCon_B
+    100020: BottLipCon_C
+    100022: BottLipCon_D
+    100024: BottLipCon_E
+    100026: BottLipCon_F
+    100028: BottLipCon_G
+    100030: BottomLipControls
+    100032: Brow_LF_A
+    100034: Brow_LF_B
+    100036: Brow_LF_C
+    100038: Brow_Mid_A
+    100040: Brow_RT_A
+    100042: Brow_RT_B
+    100044: Brow_RT_C
+    100046: BrowConGroup_A
+    100048: BrowConGroup_B
+    100050: BrowConGroup_C
+    100052: BrowConGroup_D
+    100054: BrowConGroup_E
+    100056: BrowConGroup_F
+    100058: BrowConGroup_G
+    100060: BrowControls
+    100062: Cheek_LF_A
+    100064: Cheek_LF_B
+    100066: Cheek_LF_C
+    100068: Cheek_LF_D
+    100070: Cheek_RT_A
+    100072: Cheek_RT_B
+    100074: Cheek_RT_C
+    100076: Cheek_RT_D
+    100078: CheeksControls_N
+    100080: Control_All
+    100082: Controls_N
+    100084: Critter_N
+    100086: Critter_Rot_N
+    100088: Critter_Trans_N
+    100090: ElbowLF_PvControl_N
+    100092: ElbowRT_PvControl_N
+    100094: Eye_Control_N
+    100096: EyeAll_Control
+    100098: EyeAll_Control 1
+    100100: EyeCtrl_N
+    100102: EyeCtrl_N1
+    100104: FingersLF_G
+    100106: FingersRT_G
+    100108: FootLeft_CTRL
+    100110: FootLF_Control_N
+    100112: FootRight_CTRL
+    100114: FootRT_Control_N
+    100116: group1
+    100118: group2
+    100120: group20
+    100122: group21
+    100124: group22
+    100126: group23
+    100128: group24
+    100130: group25
+    100132: group3
+    100134: group58
+    100136: group59
+    100138: group61
+    100140: group62
+    100142: group63
+    100144: group64
+    100146: group65
+    100148: group66
+    100150: group67
+    100152: group68
+    100154: group69
+    100156: group70
+    100158: group71
+    100160: group72
+    100162: group73
+    100164: group74
+    100166: group75
+    100168: group76
+    100170: group77
+    100172: group78
+    100174: group79
+    100176: group80
+    100178: group87
+    100180: group88
+    100182: group89
+    100184: Hand_Left_Control
+    100186: Hand_Right_Control
+    100188: HandLF_Control_N
+    100190: HandRT_Control_N
+    100192: Head_Control
+    100194: Head_Control_N
+    100196: Head_CTRL_N
+    100198: Hip_Left
+    100200: Hip_Right
+    100202: HipLF_Control_N
+    100204: HipRT_Control_N
+    100206: Hips_Control
+    100208: HipsControl_N
+    100210: Index_A_LF_CTRL_G
+    100212: Index_A_RT_CTRL_G
+    100214: Index_b_LF_CTRL_G
+    100216: Index_B_RT_CTRL_G
+    100218: Index_c_LF_CTRL_G
+    100220: Index_C_RT_CTRL_G
+    100222: Index_Left_A
+    100224: Index_Left_B
+    100226: Index_Left_C
+    100228: Index_Right_A
+    100230: Index_Right_B
+    100232: Index_Right_C
+    100234: Jaw_Control
+    100236: Jaw_Control_N
+    100238: JawPos_N
+    100240: Knee_Left
+    100242: Knee_Right
+    100244: KneeLF_PvControl_N
+    100246: KneeRT_PvControl_N
+    100248: Left_Foot_Wire
+    100250: Left_Hand_Wire
+    100252: LeftElbow
+    100254: LF_CheekCon_A
+    100256: LF_CheekCon_B
+    100258: LF_CheekCon_C
+    100260: LF_CheekCon_D
+    100262: Lf_Foot_Wire
+    100264: Lf_Hand_Wire
+    100266: LFFoot_Clust_A
+    100268: LFFoot_Clust_B
+    100270: LFFoot_Clust_C
+    100272: LFFoot_Wire_CTRL
+    100274: LfHand_Wire_A
+    100276: LfHand_Wire_B
+    100278: LfHand_Wire_C
+    100280: LFShoulder_N
+    100282: LipBott_LF_A
+    100284: LipBott_LF_B
+    100286: LipBott_LF_C
+    100288: LipBott_Mid_A
+    100290: LipBott_RT_A
+    100292: LipBott_RT_B
+    100294: LipBott_RT_C
+    100296: LipTop_LF_A
+    100298: LipTop_LF_B
+    100300: LipTop_LF_C
+    100302: LipTop_LF_D
+    100304: LipTop_Mid_A
+    100306: LipTop_RT_A
+    100308: LipTop_RT_B
+    100310: LipTop_RT_C
+    100312: LipTop_RT_D
+    100314: locator1
+    100316: locator1 1
+    100318: locator1 10
+    100320: locator1 11
+    100322: locator1 12
+    100324: locator1 13
+    100326: locator1 14
+    100328: locator1 15
+    100330: locator1 16
+    100332: locator1 17
+    100334: locator1 18
+    100336: locator1 19
+    100338: locator1 2
+    100340: locator1 20
+    100342: locator1 21
+    100344: locator1 22
+    100346: locator1 23
+    100348: locator1 24
+    100350: locator1 25
+    100352: locator1 26
+    100354: locator1 27
+    100356: locator1 28
+    100358: locator1 29
+    100360: locator1 3
+    100362: locator1 30
+    100364: locator1 4
+    100366: locator1 5
+    100368: locator1 6
+    100370: locator1 7
+    100372: locator1 8
+    100374: locator1 9
+    100376: MidWireCTRL
+    100378: MidWireCTRL 1
+    100380: nurbsCircle1
+    100382: nurbsCircle1 1
+    100384: nurbsCircle2
+    100386: nurbsCircle3
+    100388: pCylinder1
+    100390: pCylinder2
+    100392: Pinky_A_LF_CTRL_G
+    100394: Pinky_A_LF_CTRL_G1
+    100396: Pinky_A_RT_CTRL_G
+    100398: Pinky_b_RT_CTRL_G
+    100400: Pinky_c_LF_CTRL_G
+    100402: Pinky_C_RT_CTRL_G
+    100404: Pinky_Left_A
+    100406: Pinky_Left_B
+    100408: Pinky_Left_C
+    100410: Pinky_Right_A
+    100412: Pinky_Right_B
+    100414: Pinky_Right_C
+    100416: polySurface30
+    100418: Right_Foot_Wire
+    100420: Right_Hand_Wire
+    100422: RightElbow
+    100424: RrHand_Clust_A
+    100426: RrHand_Clust_B
+    100428: RrHand_Clust_C
+    100430: RT_CheekCon_A
+    100432: RT_CheekCon_B
+    100434: RT_CheekCon_C
+    100436: RT_CheekCon_D
+    100438: Rt_Foot_Wire
+    100440: RT_Hand_Wire
+    100442: RT_WireCTRL_N
+    100444: RTFoot_Clust_A
+    100446: RTFoot_Clust_B
+    100448: RTFoot_Clust_C
+    100450: RTFoot_Wire_CTRL
+    100452: RTShoulder_N
+    100454: Shoulder_left
+    100456: Shoulder_Right
+    100458: ShoulderLF_Control_N
+    100460: ShoulderRT_Control_N
+    100462: //RootNode
+    100464: Thumb_A_LF_CTRL_G
+    100466: Thumb_A_RT_CTRL_G
+    100468: Thumb_B_LF_CTRL_G
+    100470: Thumb_B_LF_CTRL_G 1
+    100472: Thumb_G
+    100474: Thumb_G 1
+    100476: Thumb_Left_A
+    100478: Thumb_Left_B
+    100480: Thumb_Right_A
+    100482: Thumb_Right_B
+    100484: Tongue:nurbsCircle1
+    100486: Tongue:nurbsCircle1 1
+    100488: Tongue:nurbsCircle1 2
+    100490: Tongue:nurbsCircle1 3
+    100492: Tongue:Tongue_con_A_N
+    100494: Tongue:Tongue_con_B_N
+    100496: Tongue:Tongue_con_C_N
+    100498: Tongue:Tongue_con_D_N
+    100500: Tongue_Control_N
+    100502: TopLidCurve
+    100504: TopLidCurve_N
+    100506: TopLipCon_A
+    100508: TopLipCon_B
+    100510: TopLipCon_C
+    100512: TopLipCon_D
+    100514: TopLipCon_E
+    100516: TopLipCon_F
+    100518: TopLipCon_G
+    100520: TopLipCon_H
+    100522: TopLipCon_I
+    100524: TopLipControls
+    100526: Torso_Control
+    100528: TorsoControl_N
+    100530: transform18
+    100532: transform19
+    100534: WireMidControl
+    100536: WireMidControl 1
+    100538: Xtra_N
+    400000: Body_Control_N
+    400002: Body_Controls_N
+    400004: Body_CTRL
+    400006: BodyMid_Control_N
+    400008: BodyWires
+    400010: BosdyMid_CTRL
+    400012: BottLidCurve
+    400014: BottLidCurve_N
+    400016: BottLipCon_A
+    400018: BottLipCon_B
+    400020: BottLipCon_C
+    400022: BottLipCon_D
+    400024: BottLipCon_E
+    400026: BottLipCon_F
+    400028: BottLipCon_G
+    400030: BottomLipControls
+    400032: Brow_LF_A
+    400034: Brow_LF_B
+    400036: Brow_LF_C
+    400038: Brow_Mid_A
+    400040: Brow_RT_A
+    400042: Brow_RT_B
+    400044: Brow_RT_C
+    400046: BrowConGroup_A
+    400048: BrowConGroup_B
+    400050: BrowConGroup_C
+    400052: BrowConGroup_D
+    400054: BrowConGroup_E
+    400056: BrowConGroup_F
+    400058: BrowConGroup_G
+    400060: BrowControls
+    400062: Cheek_LF_A
+    400064: Cheek_LF_B
+    400066: Cheek_LF_C
+    400068: Cheek_LF_D
+    400070: Cheek_RT_A
+    400072: Cheek_RT_B
+    400074: Cheek_RT_C
+    400076: Cheek_RT_D
+    400078: CheeksControls_N
+    400080: Control_All
+    400082: Controls_N
+    400084: Critter_N
+    400086: Critter_Rot_N
+    400088: Critter_Trans_N
+    400090: ElbowLF_PvControl_N
+    400092: ElbowRT_PvControl_N
+    400094: Eye_Control_N
+    400096: EyeAll_Control
+    400098: EyeAll_Control 1
+    400100: EyeCtrl_N
+    400102: EyeCtrl_N1
+    400104: FingersLF_G
+    400106: FingersRT_G
+    400108: FootLeft_CTRL
+    400110: FootLF_Control_N
+    400112: FootRight_CTRL
+    400114: FootRT_Control_N
+    400116: group1
+    400118: group2
+    400120: group20
+    400122: group21
+    400124: group22
+    400126: group23
+    400128: group24
+    400130: group25
+    400132: group3
+    400134: group58
+    400136: group59
+    400138: group61
+    400140: group62
+    400142: group63
+    400144: group64
+    400146: group65
+    400148: group66
+    400150: group67
+    400152: group68
+    400154: group69
+    400156: group70
+    400158: group71
+    400160: group72
+    400162: group73
+    400164: group74
+    400166: group75
+    400168: group76
+    400170: group77
+    400172: group78
+    400174: group79
+    400176: group80
+    400178: group87
+    400180: group88
+    400182: group89
+    400184: Hand_Left_Control
+    400186: Hand_Right_Control
+    400188: HandLF_Control_N
+    400190: HandRT_Control_N
+    400192: Head_Control
+    400194: Head_Control_N
+    400196: Head_CTRL_N
+    400198: Hip_Left
+    400200: Hip_Right
+    400202: HipLF_Control_N
+    400204: HipRT_Control_N
+    400206: Hips_Control
+    400208: HipsControl_N
+    400210: Index_A_LF_CTRL_G
+    400212: Index_A_RT_CTRL_G
+    400214: Index_b_LF_CTRL_G
+    400216: Index_B_RT_CTRL_G
+    400218: Index_c_LF_CTRL_G
+    400220: Index_C_RT_CTRL_G
+    400222: Index_Left_A
+    400224: Index_Left_B
+    400226: Index_Left_C
+    400228: Index_Right_A
+    400230: Index_Right_B
+    400232: Index_Right_C
+    400234: Jaw_Control
+    400236: Jaw_Control_N
+    400238: JawPos_N
+    400240: Knee_Left
+    400242: Knee_Right
+    400244: KneeLF_PvControl_N
+    400246: KneeRT_PvControl_N
+    400248: Left_Foot_Wire
+    400250: Left_Hand_Wire
+    400252: LeftElbow
+    400254: LF_CheekCon_A
+    400256: LF_CheekCon_B
+    400258: LF_CheekCon_C
+    400260: LF_CheekCon_D
+    400262: Lf_Foot_Wire
+    400264: Lf_Hand_Wire
+    400266: LFFoot_Clust_A
+    400268: LFFoot_Clust_B
+    400270: LFFoot_Clust_C
+    400272: LFFoot_Wire_CTRL
+    400274: LfHand_Wire_A
+    400276: LfHand_Wire_B
+    400278: LfHand_Wire_C
+    400280: LFShoulder_N
+    400282: LipBott_LF_A
+    400284: LipBott_LF_B
+    400286: LipBott_LF_C
+    400288: LipBott_Mid_A
+    400290: LipBott_RT_A
+    400292: LipBott_RT_B
+    400294: LipBott_RT_C
+    400296: LipTop_LF_A
+    400298: LipTop_LF_B
+    400300: LipTop_LF_C
+    400302: LipTop_LF_D
+    400304: LipTop_Mid_A
+    400306: LipTop_RT_A
+    400308: LipTop_RT_B
+    400310: LipTop_RT_C
+    400312: LipTop_RT_D
+    400314: locator1
+    400316: locator1 1
+    400318: locator1 10
+    400320: locator1 11
+    400322: locator1 12
+    400324: locator1 13
+    400326: locator1 14
+    400328: locator1 15
+    400330: locator1 16
+    400332: locator1 17
+    400334: locator1 18
+    400336: locator1 19
+    400338: locator1 2
+    400340: locator1 20
+    400342: locator1 21
+    400344: locator1 22
+    400346: locator1 23
+    400348: locator1 24
+    400350: locator1 25
+    400352: locator1 26
+    400354: locator1 27
+    400356: locator1 28
+    400358: locator1 29
+    400360: locator1 3
+    400362: locator1 30
+    400364: locator1 4
+    400366: locator1 5
+    400368: locator1 6
+    400370: locator1 7
+    400372: locator1 8
+    400374: locator1 9
+    400376: MidWireCTRL
+    400378: MidWireCTRL 1
+    400380: nurbsCircle1
+    400382: nurbsCircle1 1
+    400384: nurbsCircle2
+    400386: nurbsCircle3
+    400388: pCylinder1
+    400390: pCylinder2
+    400392: Pinky_A_LF_CTRL_G
+    400394: Pinky_A_LF_CTRL_G1
+    400396: Pinky_A_RT_CTRL_G
+    400398: Pinky_b_RT_CTRL_G
+    400400: Pinky_c_LF_CTRL_G
+    400402: Pinky_C_RT_CTRL_G
+    400404: Pinky_Left_A
+    400406: Pinky_Left_B
+    400408: Pinky_Left_C
+    400410: Pinky_Right_A
+    400412: Pinky_Right_B
+    400414: Pinky_Right_C
+    400416: polySurface30
+    400418: Right_Foot_Wire
+    400420: Right_Hand_Wire
+    400422: RightElbow
+    400424: RrHand_Clust_A
+    400426: RrHand_Clust_B
+    400428: RrHand_Clust_C
+    400430: RT_CheekCon_A
+    400432: RT_CheekCon_B
+    400434: RT_CheekCon_C
+    400436: RT_CheekCon_D
+    400438: Rt_Foot_Wire
+    400440: RT_Hand_Wire
+    400442: RT_WireCTRL_N
+    400444: RTFoot_Clust_A
+    400446: RTFoot_Clust_B
+    400448: RTFoot_Clust_C
+    400450: RTFoot_Wire_CTRL
+    400452: RTShoulder_N
+    400454: Shoulder_left
+    400456: Shoulder_Right
+    400458: ShoulderLF_Control_N
+    400460: ShoulderRT_Control_N
+    400462: //RootNode
+    400464: Thumb_A_LF_CTRL_G
+    400466: Thumb_A_RT_CTRL_G
+    400468: Thumb_B_LF_CTRL_G
+    400470: Thumb_B_LF_CTRL_G 1
+    400472: Thumb_G
+    400474: Thumb_G 1
+    400476: Thumb_Left_A
+    400478: Thumb_Left_B
+    400480: Thumb_Right_A
+    400482: Thumb_Right_B
+    400484: Tongue:nurbsCircle1
+    400486: Tongue:nurbsCircle1 1
+    400488: Tongue:nurbsCircle1 2
+    400490: Tongue:nurbsCircle1 3
+    400492: Tongue:Tongue_con_A_N
+    400494: Tongue:Tongue_con_B_N
+    400496: Tongue:Tongue_con_C_N
+    400498: Tongue:Tongue_con_D_N
+    400500: Tongue_Control_N
+    400502: TopLidCurve
+    400504: TopLidCurve_N
+    400506: TopLipCon_A
+    400508: TopLipCon_B
+    400510: TopLipCon_C
+    400512: TopLipCon_D
+    400514: TopLipCon_E
+    400516: TopLipCon_F
+    400518: TopLipCon_G
+    400520: TopLipCon_H
+    400522: TopLipCon_I
+    400524: TopLipControls
+    400526: Torso_Control
+    400528: TorsoControl_N
+    400530: transform18
+    400532: transform19
+    400534: WireMidControl
+    400536: WireMidControl 1
+    400538: Xtra_N
+    2300000: polySurface30
+    3300000: polySurface30
+    4300000: polySurface30
+    7400000: Take 001
+    7400002: Take 0010
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 380
+      lastFrame: 440
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Critter_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Body_Control_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Body_Control_N/Body_CTRL
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Body_Control_N/Body_CTRL/HipsControl_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Body_Control_N/Body_CTRL/HipsControl_N/Hips_Control
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Body_Control_N/Body_CTRL/TorsoControl_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Body_Control_N/Body_CTRL/TorsoControl_N/Torso_Control
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/BodyMid_Control_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/BodyMid_Control_N/BosdyMid_CTRL
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/ElbowLF_PvControl_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/ElbowLF_PvControl_N/LeftElbow
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/ElbowRT_PvControl_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/ElbowRT_PvControl_N/RightElbow
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Eye_Control_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Eye_Control_N/EyeCtrl_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Eye_Control_N/EyeCtrl_N/EyeAll_Control
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Eye_Control_N/EyeCtrl_N/EyeAll_Control/BottLidCurve_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Eye_Control_N/EyeCtrl_N/EyeAll_Control/BottLidCurve_N/BottLidCurve
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Eye_Control_N/EyeCtrl_N/EyeAll_Control/EyeCtrl_N1
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Eye_Control_N/EyeCtrl_N/EyeAll_Control/EyeCtrl_N1/EyeAll_Control
+          1
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Eye_Control_N/EyeCtrl_N/EyeAll_Control/TopLidCurve_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Eye_Control_N/EyeCtrl_N/EyeAll_Control/TopLidCurve_N/TopLidCurve
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootLF_Control_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootLF_Control_N/FootLeft_CTRL
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootLF_Control_N/FootLeft_CTRL/group73
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootLF_Control_N/FootLeft_CTRL/group73/LFFoot_Clust_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootLF_Control_N/FootLeft_CTRL/LFFoot_Wire_CTRL
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootLF_Control_N/FootLeft_CTRL/LFFoot_Wire_CTRL/group69
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootLF_Control_N/FootLeft_CTRL/LFFoot_Wire_CTRL/group69/Left_Foot_Wire
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootLF_Control_N/FootLeft_CTRL/LFFoot_Wire_CTRL/group69/Left_Foot_Wire/group75
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootLF_Control_N/FootLeft_CTRL/LFFoot_Wire_CTRL/group69/Left_Foot_Wire/group75/LFFoot_Clust_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootLF_Control_N/FootLeft_CTRL/WireMidControl
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootLF_Control_N/FootLeft_CTRL/WireMidControl/group77
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootLF_Control_N/FootLeft_CTRL/WireMidControl/group77/nurbsCircle1
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootLF_Control_N/FootLeft_CTRL/WireMidControl/group77/nurbsCircle1/group74
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootLF_Control_N/FootLeft_CTRL/WireMidControl/group77/nurbsCircle1/group74/LFFoot_Clust_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootRT_Control_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootRT_Control_N/FootRight_CTRL
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootRT_Control_N/FootRight_CTRL/group70
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootRT_Control_N/FootRight_CTRL/group70/RTFoot_Clust_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootRT_Control_N/FootRight_CTRL/RTFoot_Wire_CTRL
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootRT_Control_N/FootRight_CTRL/RTFoot_Wire_CTRL/group68
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootRT_Control_N/FootRight_CTRL/RTFoot_Wire_CTRL/group68/Right_Foot_Wire
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootRT_Control_N/FootRight_CTRL/RTFoot_Wire_CTRL/group68/Right_Foot_Wire/group72
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootRT_Control_N/FootRight_CTRL/RTFoot_Wire_CTRL/group68/Right_Foot_Wire/group72/RTFoot_Clust_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootRT_Control_N/FootRight_CTRL/WireMidControl
+          1
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootRT_Control_N/FootRight_CTRL/WireMidControl
+          1/group76
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootRT_Control_N/FootRight_CTRL/WireMidControl
+          1/group76/nurbsCircle1 1
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootRT_Control_N/FootRight_CTRL/WireMidControl
+          1/group76/nurbsCircle1 1/group71
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootRT_Control_N/FootRight_CTRL/WireMidControl
+          1/group76/nurbsCircle1 1/group71/RTFoot_Clust_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Index_A_LF_CTRL_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Index_A_LF_CTRL_G/Index_Left_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Index_A_LF_CTRL_G/Index_Left_A/Index_b_LF_CTRL_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Index_A_LF_CTRL_G/Index_Left_A/Index_b_LF_CTRL_G/Index_Left_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Index_A_LF_CTRL_G/Index_Left_A/Index_b_LF_CTRL_G/Index_Left_B/Index_c_LF_CTRL_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Index_A_LF_CTRL_G/Index_Left_A/Index_b_LF_CTRL_G/Index_Left_B/Index_c_LF_CTRL_G/Index_Left_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Pinky_A_LF_CTRL_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Pinky_A_LF_CTRL_G/Pinky_Left_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Pinky_A_LF_CTRL_G/Pinky_Left_A/Pinky_A_LF_CTRL_G1
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Pinky_A_LF_CTRL_G/Pinky_Left_A/Pinky_A_LF_CTRL_G1/Pinky_Left_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Pinky_A_LF_CTRL_G/Pinky_Left_A/Pinky_A_LF_CTRL_G1/Pinky_Left_B/Pinky_c_LF_CTRL_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Pinky_A_LF_CTRL_G/Pinky_Left_A/Pinky_A_LF_CTRL_G1/Pinky_Left_B/Pinky_c_LF_CTRL_G/Pinky_Left_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Thumb_A_LF_CTRL_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Thumb_A_LF_CTRL_G/Thumb_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Thumb_A_LF_CTRL_G/Thumb_G/Thumb_Left_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Thumb_A_LF_CTRL_G/Thumb_G/Thumb_Left_A/Thumb_B_LF_CTRL_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Thumb_A_LF_CTRL_G/Thumb_G/Thumb_Left_A/Thumb_B_LF_CTRL_G/Thumb_Left_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/group58
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/group58/LfHand_Wire_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/group62
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/group62/group61
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/group62/group61/Left_Hand_Wire
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/group62/group61/Left_Hand_Wire/group63
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/group62/group61/Left_Hand_Wire/group63/LfHand_Wire_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/MidWireCTRL
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/MidWireCTRL/group78
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/MidWireCTRL/group78/nurbsCircle2
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/MidWireCTRL/group78/nurbsCircle2/group59
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/MidWireCTRL/group78/nurbsCircle2/group59/LfHand_Wire_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Index_A_RT_CTRL_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Index_A_RT_CTRL_G/Index_Right_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Index_A_RT_CTRL_G/Index_Right_A/Index_B_RT_CTRL_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Index_A_RT_CTRL_G/Index_Right_A/Index_B_RT_CTRL_G/Index_Right_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Index_A_RT_CTRL_G/Index_Right_A/Index_B_RT_CTRL_G/Index_Right_B/Index_C_RT_CTRL_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Index_A_RT_CTRL_G/Index_Right_A/Index_B_RT_CTRL_G/Index_Right_B/Index_C_RT_CTRL_G/Index_Right_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Pinky_A_RT_CTRL_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Pinky_A_RT_CTRL_G/Pinky_Right_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Pinky_A_RT_CTRL_G/Pinky_Right_A/Pinky_b_RT_CTRL_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Pinky_A_RT_CTRL_G/Pinky_Right_A/Pinky_b_RT_CTRL_G/Pinky_Right_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Pinky_A_RT_CTRL_G/Pinky_Right_A/Pinky_b_RT_CTRL_G/Pinky_Right_B/Pinky_C_RT_CTRL_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Pinky_A_RT_CTRL_G/Pinky_Right_A/Pinky_b_RT_CTRL_G/Pinky_Right_B/Pinky_C_RT_CTRL_G/Pinky_Right_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Thumb_A_RT_CTRL_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Thumb_A_RT_CTRL_G/Thumb_G
+          1
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Thumb_A_RT_CTRL_G/Thumb_G
+          1/Thumb_Right_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Thumb_A_RT_CTRL_G/Thumb_G
+          1/Thumb_Right_A/Thumb_B_LF_CTRL_G 1
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Thumb_A_RT_CTRL_G/Thumb_G
+          1/Thumb_Right_A/Thumb_B_LF_CTRL_G 1/Thumb_Right_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/group64
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/group64/RrHand_Clust_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/MidWireCTRL
+          1
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/MidWireCTRL
+          1/group79
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/MidWireCTRL
+          1/group79/nurbsCircle3
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/MidWireCTRL
+          1/group79/nurbsCircle3/group65
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/MidWireCTRL
+          1/group79/nurbsCircle3/group65/RrHand_Clust_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/RT_WireCTRL_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/RT_WireCTRL_N/group66
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/RT_WireCTRL_N/group66/Right_Hand_Wire
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/RT_WireCTRL_N/group66/Right_Hand_Wire/group67
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/RT_WireCTRL_N/group66/Right_Hand_Wire/group67/RrHand_Clust_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_A/locator1
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_A/locator1/group25
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_A/locator1/group25/Brow_RT_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_B/locator1
+          1
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_B/locator1
+          1/group24
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_B/locator1
+          1/group24/Brow_RT_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_C/locator1
+          2
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_C/locator1
+          2/group23
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_C/locator1
+          2/group23/Brow_RT_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_D
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_D/locator1
+          3
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_D/locator1
+          3/group22
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_D/locator1
+          3/group22/Brow_Mid_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_E
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_E/locator1
+          4
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_E/locator1
+          4/group21
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_E/locator1
+          4/group21/Brow_LF_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_F
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_F/locator1
+          5
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_F/locator1
+          5/group20
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_F/locator1
+          5/group20/Brow_LF_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_G/locator1
+          6
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_G/locator1
+          6/group80
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_G/locator1
+          6/group80/Brow_LF_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/LF_CheekCon_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/LF_CheekCon_A/locator1
+          7
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/LF_CheekCon_A/locator1
+          7/Cheek_LF_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/LF_CheekCon_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/LF_CheekCon_B/locator1
+          8
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/LF_CheekCon_B/locator1
+          8/Cheek_LF_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/LF_CheekCon_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/LF_CheekCon_C/locator1
+          9
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/LF_CheekCon_C/locator1
+          9/Cheek_LF_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/LF_CheekCon_D
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/LF_CheekCon_D/locator1
+          10
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/LF_CheekCon_D/locator1
+          10/Cheek_LF_D
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/RT_CheekCon_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/RT_CheekCon_A/locator1
+          11
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/RT_CheekCon_A/locator1
+          11/Cheek_RT_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/RT_CheekCon_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/RT_CheekCon_B/locator1
+          12
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/RT_CheekCon_B/locator1
+          12/Cheek_RT_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/RT_CheekCon_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/RT_CheekCon_C/locator1
+          13
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/RT_CheekCon_C/locator1
+          13/Cheek_RT_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/RT_CheekCon_D
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/RT_CheekCon_D/locator1
+          14
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/RT_CheekCon_D/locator1
+          14/Cheek_RT_D
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_A/locator1
+          15
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_A/locator1
+          15/LipTop_RT_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_B/locator1
+          16
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_B/locator1
+          16/LipTop_RT_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_C/locator1
+          17
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_C/locator1
+          17/LipTop_RT_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_D
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_D/locator1
+          18
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_D/locator1
+          18/LipTop_RT_D
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_E
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_E/locator1
+          19
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_E/locator1
+          19/LipTop_Mid_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_F
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_F/locator1
+          20
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_F/locator1
+          20/LipTop_LF_D
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_G/locator1
+          21
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_G/locator1
+          21/LipTop_LF_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_H
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_H/locator1
+          22
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_H/locator1
+          22/LipTop_LF_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_I
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_I/locator1
+          23
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_I/locator1
+          23/LipTop_LF_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HipLF_Control_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HipLF_Control_N/group3
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HipLF_Control_N/group3/Hip_Left
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HipRT_Control_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HipRT_Control_N/group1
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HipRT_Control_N/group1/group2
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HipRT_Control_N/group1/group2/Hip_Right
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_A/locator1
+          24
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_A/locator1
+          24/LipBott_RT_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_B/locator1
+          25
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_B/locator1
+          25/LipBott_RT_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_C/locator1
+          26
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_C/locator1
+          26/LipBott_RT_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_D
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_D/locator1
+          27
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_D/locator1
+          27/LipBott_Mid_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_E
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_E/locator1
+          28
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_E/locator1
+          28/LipBott_LF_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_F
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_F/locator1
+          29
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_F/locator1
+          29/LipBott_LF_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_G/locator1
+          30
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_G/locator1
+          30/LipBott_LF_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/KneeLF_PvControl_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/KneeLF_PvControl_N/Knee_Left
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/KneeRT_PvControl_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/KneeRT_PvControl_N/Knee_Right
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/ShoulderLF_Control_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/ShoulderLF_Control_N/LFShoulder_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/ShoulderLF_Control_N/LFShoulder_N/Shoulder_left
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/ShoulderRT_Control_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/ShoulderRT_Control_N/RTShoulder_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/ShoulderRT_Control_N/RTShoulder_N/Shoulder_Right
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Tongue_Control_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Tongue_Control_N/group87
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Tongue_Control_N/group87/Tongue:Tongue_con_A_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Tongue_Control_N/group87/Tongue:Tongue_con_A_N/Tongue:nurbsCircle1
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Tongue_Control_N/group87/Tongue:Tongue_con_A_N/Tongue:nurbsCircle1/Tongue:Tongue_con_B_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Tongue_Control_N/group87/Tongue:Tongue_con_A_N/Tongue:nurbsCircle1/Tongue:Tongue_con_B_N/Tongue:nurbsCircle1
+          1
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Tongue_Control_N/group87/Tongue:Tongue_con_A_N/Tongue:nurbsCircle1/Tongue:Tongue_con_B_N/Tongue:nurbsCircle1
+          1/Tongue:Tongue_con_C_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Tongue_Control_N/group87/Tongue:Tongue_con_A_N/Tongue:nurbsCircle1/Tongue:Tongue_con_B_N/Tongue:nurbsCircle1
+          1/Tongue:Tongue_con_C_N/Tongue:nurbsCircle1 2
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Tongue_Control_N/group87/Tongue:Tongue_con_A_N/Tongue:nurbsCircle1/Tongue:Tongue_con_B_N/Tongue:nurbsCircle1
+          1/Tongue:Tongue_con_C_N/Tongue:nurbsCircle1 2/Tongue:Tongue_con_D_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Tongue_Control_N/group87/Tongue:Tongue_con_A_N/Tongue:nurbsCircle1/Tongue:Tongue_con_B_N/Tongue:nurbsCircle1
+          1/Tongue:Tongue_con_C_N/Tongue:nurbsCircle1 2/Tongue:Tongue_con_D_N/Tongue:nurbsCircle1
+          3
+        weight: 1
+      - path: Critter_N/Xtra_N
+        weight: 1
+      - path: Critter_N/Xtra_N/BodyWires
+        weight: 1
+      - path: Critter_N/Xtra_N/BodyWires/Lf_Foot_Wire
+        weight: 1
+      - path: Critter_N/Xtra_N/BodyWires/Lf_Hand_Wire
+        weight: 1
+      - path: Critter_N/Xtra_N/BodyWires/Rt_Foot_Wire
+        weight: 1
+      - path: Critter_N/Xtra_N/BodyWires/RT_Hand_Wire
+        weight: 1
+      - path: group88
+        weight: 1
+      - path: group88/group89
+        weight: 1
+      - path: group88/group89/pCylinder1
+        weight: 1
+      - path: group88/group89/pCylinder1/transform18
+        weight: 1
+      - path: group88/group89/pCylinder2
+        weight: 1
+      - path: group88/group89/pCylinder2/transform19
+        weight: 1
+      - path: polySurface30
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Take 0010
+      takeName: Take 001
+      firstFrame: 100
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Critter_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Body_Control_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Body_Control_N/Body_CTRL
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Body_Control_N/Body_CTRL/HipsControl_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Body_Control_N/Body_CTRL/HipsControl_N/Hips_Control
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Body_Control_N/Body_CTRL/TorsoControl_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Body_Control_N/Body_CTRL/TorsoControl_N/Torso_Control
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/BodyMid_Control_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/BodyMid_Control_N/BosdyMid_CTRL
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/ElbowLF_PvControl_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/ElbowLF_PvControl_N/LeftElbow
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/ElbowRT_PvControl_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/ElbowRT_PvControl_N/RightElbow
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Eye_Control_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Eye_Control_N/EyeCtrl_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Eye_Control_N/EyeCtrl_N/EyeAll_Control
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Eye_Control_N/EyeCtrl_N/EyeAll_Control/BottLidCurve_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Eye_Control_N/EyeCtrl_N/EyeAll_Control/BottLidCurve_N/BottLidCurve
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Eye_Control_N/EyeCtrl_N/EyeAll_Control/EyeCtrl_N1
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Eye_Control_N/EyeCtrl_N/EyeAll_Control/EyeCtrl_N1/EyeAll_Control
+          1
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Eye_Control_N/EyeCtrl_N/EyeAll_Control/TopLidCurve_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Eye_Control_N/EyeCtrl_N/EyeAll_Control/TopLidCurve_N/TopLidCurve
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootLF_Control_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootLF_Control_N/FootLeft_CTRL
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootLF_Control_N/FootLeft_CTRL/group73
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootLF_Control_N/FootLeft_CTRL/group73/LFFoot_Clust_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootLF_Control_N/FootLeft_CTRL/LFFoot_Wire_CTRL
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootLF_Control_N/FootLeft_CTRL/LFFoot_Wire_CTRL/group69
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootLF_Control_N/FootLeft_CTRL/LFFoot_Wire_CTRL/group69/Left_Foot_Wire
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootLF_Control_N/FootLeft_CTRL/LFFoot_Wire_CTRL/group69/Left_Foot_Wire/group75
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootLF_Control_N/FootLeft_CTRL/LFFoot_Wire_CTRL/group69/Left_Foot_Wire/group75/LFFoot_Clust_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootLF_Control_N/FootLeft_CTRL/WireMidControl
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootLF_Control_N/FootLeft_CTRL/WireMidControl/group77
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootLF_Control_N/FootLeft_CTRL/WireMidControl/group77/nurbsCircle1
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootLF_Control_N/FootLeft_CTRL/WireMidControl/group77/nurbsCircle1/group74
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootLF_Control_N/FootLeft_CTRL/WireMidControl/group77/nurbsCircle1/group74/LFFoot_Clust_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootRT_Control_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootRT_Control_N/FootRight_CTRL
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootRT_Control_N/FootRight_CTRL/group70
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootRT_Control_N/FootRight_CTRL/group70/RTFoot_Clust_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootRT_Control_N/FootRight_CTRL/RTFoot_Wire_CTRL
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootRT_Control_N/FootRight_CTRL/RTFoot_Wire_CTRL/group68
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootRT_Control_N/FootRight_CTRL/RTFoot_Wire_CTRL/group68/Right_Foot_Wire
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootRT_Control_N/FootRight_CTRL/RTFoot_Wire_CTRL/group68/Right_Foot_Wire/group72
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootRT_Control_N/FootRight_CTRL/RTFoot_Wire_CTRL/group68/Right_Foot_Wire/group72/RTFoot_Clust_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootRT_Control_N/FootRight_CTRL/WireMidControl
+          1
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootRT_Control_N/FootRight_CTRL/WireMidControl
+          1/group76
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootRT_Control_N/FootRight_CTRL/WireMidControl
+          1/group76/nurbsCircle1 1
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootRT_Control_N/FootRight_CTRL/WireMidControl
+          1/group76/nurbsCircle1 1/group71
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/FootRT_Control_N/FootRight_CTRL/WireMidControl
+          1/group76/nurbsCircle1 1/group71/RTFoot_Clust_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Index_A_LF_CTRL_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Index_A_LF_CTRL_G/Index_Left_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Index_A_LF_CTRL_G/Index_Left_A/Index_b_LF_CTRL_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Index_A_LF_CTRL_G/Index_Left_A/Index_b_LF_CTRL_G/Index_Left_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Index_A_LF_CTRL_G/Index_Left_A/Index_b_LF_CTRL_G/Index_Left_B/Index_c_LF_CTRL_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Index_A_LF_CTRL_G/Index_Left_A/Index_b_LF_CTRL_G/Index_Left_B/Index_c_LF_CTRL_G/Index_Left_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Pinky_A_LF_CTRL_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Pinky_A_LF_CTRL_G/Pinky_Left_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Pinky_A_LF_CTRL_G/Pinky_Left_A/Pinky_A_LF_CTRL_G1
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Pinky_A_LF_CTRL_G/Pinky_Left_A/Pinky_A_LF_CTRL_G1/Pinky_Left_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Pinky_A_LF_CTRL_G/Pinky_Left_A/Pinky_A_LF_CTRL_G1/Pinky_Left_B/Pinky_c_LF_CTRL_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Pinky_A_LF_CTRL_G/Pinky_Left_A/Pinky_A_LF_CTRL_G1/Pinky_Left_B/Pinky_c_LF_CTRL_G/Pinky_Left_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Thumb_A_LF_CTRL_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Thumb_A_LF_CTRL_G/Thumb_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Thumb_A_LF_CTRL_G/Thumb_G/Thumb_Left_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Thumb_A_LF_CTRL_G/Thumb_G/Thumb_Left_A/Thumb_B_LF_CTRL_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/FingersLF_G/Thumb_A_LF_CTRL_G/Thumb_G/Thumb_Left_A/Thumb_B_LF_CTRL_G/Thumb_Left_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/group58
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/group58/LfHand_Wire_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/group62
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/group62/group61
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/group62/group61/Left_Hand_Wire
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/group62/group61/Left_Hand_Wire/group63
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/group62/group61/Left_Hand_Wire/group63/LfHand_Wire_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/MidWireCTRL
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/MidWireCTRL/group78
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/MidWireCTRL/group78/nurbsCircle2
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/MidWireCTRL/group78/nurbsCircle2/group59
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandLF_Control_N/Hand_Left_Control/MidWireCTRL/group78/nurbsCircle2/group59/LfHand_Wire_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Index_A_RT_CTRL_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Index_A_RT_CTRL_G/Index_Right_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Index_A_RT_CTRL_G/Index_Right_A/Index_B_RT_CTRL_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Index_A_RT_CTRL_G/Index_Right_A/Index_B_RT_CTRL_G/Index_Right_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Index_A_RT_CTRL_G/Index_Right_A/Index_B_RT_CTRL_G/Index_Right_B/Index_C_RT_CTRL_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Index_A_RT_CTRL_G/Index_Right_A/Index_B_RT_CTRL_G/Index_Right_B/Index_C_RT_CTRL_G/Index_Right_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Pinky_A_RT_CTRL_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Pinky_A_RT_CTRL_G/Pinky_Right_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Pinky_A_RT_CTRL_G/Pinky_Right_A/Pinky_b_RT_CTRL_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Pinky_A_RT_CTRL_G/Pinky_Right_A/Pinky_b_RT_CTRL_G/Pinky_Right_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Pinky_A_RT_CTRL_G/Pinky_Right_A/Pinky_b_RT_CTRL_G/Pinky_Right_B/Pinky_C_RT_CTRL_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Pinky_A_RT_CTRL_G/Pinky_Right_A/Pinky_b_RT_CTRL_G/Pinky_Right_B/Pinky_C_RT_CTRL_G/Pinky_Right_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Thumb_A_RT_CTRL_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Thumb_A_RT_CTRL_G/Thumb_G
+          1
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Thumb_A_RT_CTRL_G/Thumb_G
+          1/Thumb_Right_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Thumb_A_RT_CTRL_G/Thumb_G
+          1/Thumb_Right_A/Thumb_B_LF_CTRL_G 1
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/FingersRT_G/Thumb_A_RT_CTRL_G/Thumb_G
+          1/Thumb_Right_A/Thumb_B_LF_CTRL_G 1/Thumb_Right_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/group64
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/group64/RrHand_Clust_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/MidWireCTRL
+          1
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/MidWireCTRL
+          1/group79
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/MidWireCTRL
+          1/group79/nurbsCircle3
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/MidWireCTRL
+          1/group79/nurbsCircle3/group65
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/MidWireCTRL
+          1/group79/nurbsCircle3/group65/RrHand_Clust_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/RT_WireCTRL_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/RT_WireCTRL_N/group66
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/RT_WireCTRL_N/group66/Right_Hand_Wire
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/RT_WireCTRL_N/group66/Right_Hand_Wire/group67
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HandRT_Control_N/Hand_Right_Control/RT_WireCTRL_N/group66/Right_Hand_Wire/group67/RrHand_Clust_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_A/locator1
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_A/locator1/group25
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_A/locator1/group25/Brow_RT_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_B/locator1
+          1
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_B/locator1
+          1/group24
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_B/locator1
+          1/group24/Brow_RT_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_C/locator1
+          2
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_C/locator1
+          2/group23
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_C/locator1
+          2/group23/Brow_RT_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_D
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_D/locator1
+          3
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_D/locator1
+          3/group22
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_D/locator1
+          3/group22/Brow_Mid_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_E
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_E/locator1
+          4
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_E/locator1
+          4/group21
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_E/locator1
+          4/group21/Brow_LF_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_F
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_F/locator1
+          5
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_F/locator1
+          5/group20
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_F/locator1
+          5/group20/Brow_LF_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_G/locator1
+          6
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_G/locator1
+          6/group80
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/BrowControls/BrowConGroup_G/locator1
+          6/group80/Brow_LF_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/LF_CheekCon_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/LF_CheekCon_A/locator1
+          7
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/LF_CheekCon_A/locator1
+          7/Cheek_LF_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/LF_CheekCon_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/LF_CheekCon_B/locator1
+          8
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/LF_CheekCon_B/locator1
+          8/Cheek_LF_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/LF_CheekCon_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/LF_CheekCon_C/locator1
+          9
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/LF_CheekCon_C/locator1
+          9/Cheek_LF_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/LF_CheekCon_D
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/LF_CheekCon_D/locator1
+          10
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/LF_CheekCon_D/locator1
+          10/Cheek_LF_D
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/RT_CheekCon_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/RT_CheekCon_A/locator1
+          11
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/RT_CheekCon_A/locator1
+          11/Cheek_RT_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/RT_CheekCon_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/RT_CheekCon_B/locator1
+          12
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/RT_CheekCon_B/locator1
+          12/Cheek_RT_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/RT_CheekCon_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/RT_CheekCon_C/locator1
+          13
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/RT_CheekCon_C/locator1
+          13/Cheek_RT_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/RT_CheekCon_D
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/RT_CheekCon_D/locator1
+          14
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/CheeksControls_N/RT_CheekCon_D/locator1
+          14/Cheek_RT_D
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_A/locator1
+          15
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_A/locator1
+          15/LipTop_RT_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_B/locator1
+          16
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_B/locator1
+          16/LipTop_RT_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_C/locator1
+          17
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_C/locator1
+          17/LipTop_RT_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_D
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_D/locator1
+          18
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_D/locator1
+          18/LipTop_RT_D
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_E
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_E/locator1
+          19
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_E/locator1
+          19/LipTop_Mid_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_F
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_F/locator1
+          20
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_F/locator1
+          20/LipTop_LF_D
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_G/locator1
+          21
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_G/locator1
+          21/LipTop_LF_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_H
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_H/locator1
+          22
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_H/locator1
+          22/LipTop_LF_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_I
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_I/locator1
+          23
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Head_Control_N/Head_CTRL_N/Head_Control/TopLipControls/TopLipCon_I/locator1
+          23/LipTop_LF_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HipLF_Control_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HipLF_Control_N/group3
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HipLF_Control_N/group3/Hip_Left
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HipRT_Control_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HipRT_Control_N/group1
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HipRT_Control_N/group1/group2
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/HipRT_Control_N/group1/group2/Hip_Right
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_A/locator1
+          24
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_A/locator1
+          24/LipBott_RT_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_B/locator1
+          25
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_B/locator1
+          25/LipBott_RT_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_C/locator1
+          26
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_C/locator1
+          26/LipBott_RT_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_D
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_D/locator1
+          27
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_D/locator1
+          27/LipBott_Mid_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_E
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_E/locator1
+          28
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_E/locator1
+          28/LipBott_LF_C
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_F
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_F/locator1
+          29
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_F/locator1
+          29/LipBott_LF_B
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_G
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_G/locator1
+          30
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Jaw_Control_N/JawPos_N/Jaw_Control/BottomLipControls/BottLipCon_G/locator1
+          30/LipBott_LF_A
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/KneeLF_PvControl_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/KneeLF_PvControl_N/Knee_Left
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/KneeRT_PvControl_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/KneeRT_PvControl_N/Knee_Right
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/ShoulderLF_Control_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/ShoulderLF_Control_N/LFShoulder_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/ShoulderLF_Control_N/LFShoulder_N/Shoulder_left
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/ShoulderRT_Control_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/ShoulderRT_Control_N/RTShoulder_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/ShoulderRT_Control_N/RTShoulder_N/Shoulder_Right
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Tongue_Control_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Tongue_Control_N/group87
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Tongue_Control_N/group87/Tongue:Tongue_con_A_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Tongue_Control_N/group87/Tongue:Tongue_con_A_N/Tongue:nurbsCircle1
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Tongue_Control_N/group87/Tongue:Tongue_con_A_N/Tongue:nurbsCircle1/Tongue:Tongue_con_B_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Tongue_Control_N/group87/Tongue:Tongue_con_A_N/Tongue:nurbsCircle1/Tongue:Tongue_con_B_N/Tongue:nurbsCircle1
+          1
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Tongue_Control_N/group87/Tongue:Tongue_con_A_N/Tongue:nurbsCircle1/Tongue:Tongue_con_B_N/Tongue:nurbsCircle1
+          1/Tongue:Tongue_con_C_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Tongue_Control_N/group87/Tongue:Tongue_con_A_N/Tongue:nurbsCircle1/Tongue:Tongue_con_B_N/Tongue:nurbsCircle1
+          1/Tongue:Tongue_con_C_N/Tongue:nurbsCircle1 2
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Tongue_Control_N/group87/Tongue:Tongue_con_A_N/Tongue:nurbsCircle1/Tongue:Tongue_con_B_N/Tongue:nurbsCircle1
+          1/Tongue:Tongue_con_C_N/Tongue:nurbsCircle1 2/Tongue:Tongue_con_D_N
+        weight: 1
+      - path: Critter_N/Critter_Trans_N/Critter_Rot_N/Controls_N/Body_Controls_N/Control_All/Tongue_Control_N/group87/Tongue:Tongue_con_A_N/Tongue:nurbsCircle1/Tongue:Tongue_con_B_N/Tongue:nurbsCircle1
+          1/Tongue:Tongue_con_C_N/Tongue:nurbsCircle1 2/Tongue:Tongue_con_D_N/Tongue:nurbsCircle1
+          3
+        weight: 1
+      - path: Critter_N/Xtra_N
+        weight: 1
+      - path: Critter_N/Xtra_N/BodyWires
+        weight: 1
+      - path: Critter_N/Xtra_N/BodyWires/Lf_Foot_Wire
+        weight: 1
+      - path: Critter_N/Xtra_N/BodyWires/Lf_Hand_Wire
+        weight: 1
+      - path: Critter_N/Xtra_N/BodyWires/Rt_Foot_Wire
+        weight: 1
+      - path: Critter_N/Xtra_N/BodyWires/RT_Hand_Wire
+        weight: 1
+      - path: group88
+        weight: 1
+      - path: group88/group89
+        weight: 1
+      - path: group88/group89/pCylinder1
+        weight: 1
+      - path: group88/group89/pCylinder1/transform18
+        weight: 1
+      - path: group88/group89/pCylinder2
+        weight: 1
+      - path: group88/group89/pCylinder2/transform19
+        weight: 1
+      - path: polySurface30
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
