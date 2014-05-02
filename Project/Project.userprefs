@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AddInScore.js">
+    <Files>
+      <File FileName="Assets\Scripts\LaunchLevel.js" Line="1" Column="1" />
+      <File FileName="Assets\GroupAssets\Scripts\Whack-A-Mole\ScoreControl.cs" Line="33" Column="17" />
+      <File FileName="Assets\GroupAssets\Assets\Scripts\FroggerStart.cs" Line="103" Column="36" />
+      <File FileName="Assets\Scripts\AddInScore.js" Line="65" Column="41" />
+      <File FileName="Assets\Scripts\CountSheepGO.js" Line="12" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
