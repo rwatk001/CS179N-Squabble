@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{C22FA9EE-EBFF-6669-DDA9-C1F27475A5F2}</ProjectGuid>
+	<ProjectGuid>{9962C6E1-CB33-FB1E-A2C4-B89F7052FC93}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -39,44 +39,36 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>D:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>D:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GroupAssets\Assets\Standard Assets\Scripts\Camera Scripts\MouseOrbit.js" />
-     <Compile Include="Assets\GroupAssets\Assets\Standard Assets\Scripts\Camera Scripts\SmoothFollow.js" />
-     <Compile Include="Assets\GroupAssets\Assets\Standard Assets\Scripts\Camera Scripts\SmoothLookAt.js" />
-     <Compile Include="Assets\GroupAssets\Assets\Standard Assets\Scripts\General Scripts\DragRigidbody.js" />
-     <Compile Include="Assets\Scripts\AddInScore.js" />
-     <Compile Include="Assets\Scripts\Connect.js" />
-     <Compile Include="Assets\Scripts\CountSheepGO.js" />
-     <Compile Include="Assets\Scripts\FingerLine.js" />
-     <Compile Include="Assets\Scripts\FollowLine.js" />
-     <Compile Include="Assets\Scripts\LaunchLevel.js" />
-     <Compile Include="Assets\Scripts\LineMouse.js" />
-     <Compile Include="Assets\Scripts\Score.js" />
-     <Compile Include="Assets\Scripts\ScoreCount.js" />
-     <Compile Include="Assets\Scripts\SpawnBarrels.js" />
-     <Compile Include="Assets\Scripts\Timer.js" />
-     <Compile Include="Assets\Scripts\WaitForIt.js" />
+     <Compile Include="Assets\Scripts\Counting Sheep\AddInScore.js" />
+     <Compile Include="Assets\Scripts\Counting Sheep\Connect.js" />
+     <Compile Include="Assets\Scripts\Counting Sheep\CountSheepGO.js" />
+     <Compile Include="Assets\Scripts\Counting Sheep\FingerLine.js" />
+     <Compile Include="Assets\Scripts\Counting Sheep\FollowLine.js" />
+     <Compile Include="Assets\Scripts\Counting Sheep\LaunchLevel.js" />
+     <Compile Include="Assets\Scripts\Counting Sheep\LineMouse.js" />
+     <Compile Include="Assets\Scripts\Counting Sheep\Score.js" />
+     <Compile Include="Assets\Scripts\Counting Sheep\ScoreCount.js" />
+     <Compile Include="Assets\Scripts\Counting Sheep\SpawnBarrels.js" />
+     <Compile Include="Assets\Scripts\Counting Sheep\Timer.js" />
+     <Compile Include="Assets\Scripts\Counting Sheep\WaitForIt.js" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
-     <None Include="Assets\GroupAssets\Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
-     <None Include="Assets\GroupAssets\Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
-     <None Include="Assets\GroupAssets\Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
-     <None Include="Assets\GroupAssets\Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{EB8AA23C-2655-E22B-2EBB-05697394EDB3}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+      <Project>{6C4EA82E-48E5-FFD4-921E-FE312FB76978}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
