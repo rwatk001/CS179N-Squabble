@@ -58,7 +58,7 @@ function OnGUI() {
 		GUI.Label (new Rect (cushionWidth*1.4f, cushionHeight*3, width, height), helpCount.ToString());
 		GUI.skin = playSkin;
 		if (GUI.Button (new Rect (cushionWidth*2.5f, cushionHeight*6.50f, 100, 50), "CONTINUE")) {
-			Application.LoadLevel ("Whack-A-Mole_v1");
+			Application.LoadLevel ("Menu");
 		}
 		GUI.skin = replaySkin;
 		if (GUI.Button (new Rect (cushionWidth*0.75f, cushionHeight*6.50f, 100, 50), "REPLAY")) {

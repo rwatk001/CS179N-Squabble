@@ -20,7 +20,6 @@ public class MenuControl : MonoBehaviour {
 		width = Screen.width;
 		cushionHeight = height * (float)0.10;
 		cushionWidth = width * (float)0.10;
-		playMode = false;
 	}
 
 	void Update() {

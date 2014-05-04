@@ -53,7 +53,7 @@ public class ScoreControl : MonoBehaviour {
 			GUI.Label (new Rect (cushionWidth*(float)1.3, cushionHeight/2, width, height), "SCORE");
 			helpCount = masterMoleControl.totalHits * 100;
 			GUI.Label (new Rect (cushionWidth*(float)1.4, cushionHeight*3, width, height), helpCount.ToString());
-			if (!dataContainer.isPlayMode) {
+			if (!DataContainer.isPlayMode) {
 				GUI.skin = menuSkin;
 				if (GUI.Button (new Rect (cushionWidth*(float)2.5, cushionHeight*(float)6.50, 100, 50), "BACK")) {
 					Application.LoadLevel ("TrainMenu");
