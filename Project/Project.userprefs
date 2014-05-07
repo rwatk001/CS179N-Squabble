@@ -1,12 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AddInScore.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CharacterExplode.js">
     <Files>
-      <File FileName="Assets\Scripts\LaunchLevel.js" Line="1" Column="1" />
-      <File FileName="Assets\GroupAssets\Scripts\Whack-A-Mole\ScoreControl.cs" Line="33" Column="17" />
-      <File FileName="Assets\GroupAssets\Assets\Scripts\FroggerStart.cs" Line="103" Column="36" />
-      <File FileName="Assets\Scripts\AddInScore.js" Line="65" Column="41" />
-      <File FileName="Assets\Scripts\CountSheepGO.js" Line="12" Column="5" />
+      <File FileName="Assets\Scripts\HealthCount.js" Line="10" Column="13" />
+      <File FileName="Assets\Scripts\AddInScore.js" Line="63" Column="38" />
+      <File FileName="Assets\Scripts\Timer.js" Line="12" Column="23" />
+      <File FileName="Assets\Scripts\ScoreCountRocket.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CountSheepGO.js" Line="22" Column="3" />
+      <File FileName="Assets\Scripts\ScoreCountSheep.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\RocketReset.js" Line="14" Column="22" />
+      <File FileName="Assets\Scripts\CharacterExplode.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

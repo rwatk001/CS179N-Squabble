@@ -1,4 +1,6 @@
-﻿static var globalScore : int = 0;
+﻿static var score : int;
+static var life : int = 3;
+static var tallyScore : boolean;
 var boardScore : int = 0;
 var readyButton : boolean = false;
 static var goLevel : boolean = false;
@@ -20,8 +22,8 @@ var helpCount : int;
 
 
 function updateScore () {
-	if (CountSheepGO.tallyScore) {
-		while (boardScore < globalScore) {
+	if (tallyScore) {
+		while (boardScore < score) {
 			boardScore++;
 			guiText.text = boardScore.ToString();
 			yield WaitForSeconds(10);
@@ -47,18 +49,18 @@ function setReadyBut () {
 
 function OnGUI() {
 //	setReadyBut();
-	if (CountSheepGO.tallyScore) {
+	if (tallyScore) {
 		//From WAM ScoreContol @@@@@@@@@@@@
 		GUI.BeginGroup (new Rect(0, 0, width, height));
 		GUI.Box (new Rect(cushionWidth*3, cushionHeight, width*0.40f, height*0.80f), "");
 		GUI.BeginGroup (new Rect (cushionWidth*3, cushionHeight, width, height));
 		GUI.skin = scoreSkin;
 		GUI.Label (new Rect (cushionWidth*1.3f, cushionHeight/2, width, height), "SCORE");
-		helpCount = globalScore;
+		helpCount = score;
 		GUI.Label (new Rect (cushionWidth*1.4f, cushionHeight*3, width, height), helpCount.ToString());
 		GUI.skin = playSkin;
 		if (GUI.Button (new Rect (cushionWidth*2.5f, cushionHeight*6.50f, 100, 50), "CONTINUE")) {
-			Application.LoadLevel ("Whack-A-Mole_v1");
+			Application.LoadLevel ("RocketJump");
 		}
 		GUI.skin = replaySkin;
 		if (GUI.Button (new Rect (cushionWidth*0.75f, cushionHeight*6.50f, 100, 50), "REPLAY")) {
@@ -72,6 +74,7 @@ function OnGUI() {
 
 //From WAM ScoreContol @@@@@@@@@@@@
 function Start () {
+	tallyScore = false;
 	showScore = false;
 	height = Screen.height;
 	width = Screen.width;

@@ -1,3 +1,3 @@
 ﻿function Update () {
-	guiText.text = ScoreCount.scoreString;
+	guiText.text = ScoreCountSheep.scoreString;
 }

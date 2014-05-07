@@ -1,15 +1,15 @@
 ﻿var gameTimer : float = 5.0;
 var showTime : int;
 var timeString : String = "Time: ";
-static var gameOverSheep : boolean = false;
+static var timesUpGO : boolean = false;
  
  function Start () {
  	gameTimer = 30;
- 	gameOverSheep = false;
+ 	timesUpGO = false;
  }
  
 function Update () {
-	if(gameTimer > 0){
+	if(gameTimer > 0 && !CountSheepGO.lostLifeGO){
 		gameTimer -= Time.deltaTime;
 		showTime = gameTimer;
 		timeString = "Time: " + showTime;
@@ -19,6 +19,6 @@ function Update () {
 	
 	if(gameTimer <= 0){
 //		Debug.Log("GAME OVER");
-		gameOverSheep = true;
+		timesUpGO = true;
 	}
 }
