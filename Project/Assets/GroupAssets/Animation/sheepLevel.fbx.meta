@@ -248,6 +248,7 @@ ModelImporter:
     100484: transform76
     100486: transform8
     100488: transform9
+    100490: group11
     400000: group
     400002: group1
     400004: group10
@@ -493,6 +494,7 @@ ModelImporter:
     400484: transform76
     400486: transform8
     400488: transform9
+    400490: group11
     2300000: pasted__pTorus1
     2300002: pCube2
     2300004: polySurface1

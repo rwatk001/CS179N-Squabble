@@ -46,18 +46,16 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Counting Sheep\AddInScore.js" />
-     <Compile Include="Assets\Scripts\Counting Sheep\Connect.js" />
-     <Compile Include="Assets\Scripts\Counting Sheep\CountSheepGO.js" />
-     <Compile Include="Assets\Scripts\Counting Sheep\FingerLine.js" />
-     <Compile Include="Assets\Scripts\Counting Sheep\FollowLine.js" />
-     <Compile Include="Assets\Scripts\Counting Sheep\LaunchLevel.js" />
-     <Compile Include="Assets\Scripts\Counting Sheep\LineMouse.js" />
-     <Compile Include="Assets\Scripts\Counting Sheep\Score.js" />
-     <Compile Include="Assets\Scripts\Counting Sheep\ScoreCount.js" />
-     <Compile Include="Assets\Scripts\Counting Sheep\SpawnBarrels.js" />
-     <Compile Include="Assets\Scripts\Counting Sheep\Timer.js" />
-     <Compile Include="Assets\Scripts\Counting Sheep\WaitForIt.js" />
+     <Compile Include="Assets\Scripts\AddInScore.js" />
+     <Compile Include="Assets\Scripts\CharacterExplode.js" />
+     <Compile Include="Assets\Scripts\CountSheepGO.js" />
+     <Compile Include="Assets\Scripts\HealthCount.js" />
+     <Compile Include="Assets\Scripts\LaunchLevel.js" />
+     <Compile Include="Assets\Scripts\RocketReset.js" />
+     <Compile Include="Assets\Scripts\Score.js" />
+     <Compile Include="Assets\Scripts\ScoreCountSheep.js" />
+     <Compile Include="Assets\Scripts\SmoothFollow.js" />
+     <Compile Include="Assets\Scripts\Timer.js" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />

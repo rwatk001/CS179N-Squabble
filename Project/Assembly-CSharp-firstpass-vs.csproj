@@ -47,6 +47,23 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\CameraControl.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\DataContainer.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\GameOverYield.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\KillBallControl.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\MasterMoleControl.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\MenuControl.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\MoleControl.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\PlayerControl.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\RunPlayerControl.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\ScoreControl.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\SpawnWallControl.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\TimerControl.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\TrainMenu2Control.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\TrainMenuControl.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\TurnControl.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\WallControl.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\Sheep - Rocket\FollowPath.cs" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
