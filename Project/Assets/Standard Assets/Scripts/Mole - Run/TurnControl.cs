@@ -10,16 +10,16 @@ public class TurnControl : MonoBehaviour {
 
 	void MoveCenter () {
 		if (ballCount == 0) {
-			killBall.GetComponent<SphereCollider>().center = new Vector3(0.0f, -0.3f, -0.2f);
+			killBall.GetComponent<SphereCollider>().center = new Vector3(0.0f, -1.5f, -0.2f);
 		}
 		else if (ballCount == 1) {
-			killBall.GetComponent<SphereCollider>().center = new Vector3(-0.1f, -0.3f, 0.0f);
+			killBall.GetComponent<SphereCollider>().center = new Vector3(-0.1f, -1.5f, 0.0f);
 		}
 		else if (ballCount == 2) {
-			killBall.GetComponent<SphereCollider>().center = new Vector3(-0.4f, -0.3f, 0.0f);
+			killBall.GetComponent<SphereCollider>().center = new Vector3(0.5f, -1.5f, 0.0f);
 		}
 		else {
-			killBall.GetComponent<SphereCollider>().center = new Vector3(-0.4f, -0.3f, -0.2f);
+			killBall.GetComponent<SphereCollider>().center = new Vector3(0.5f, -1.5f, -0.2f);
 		}
 	}
 
@@ -35,7 +35,8 @@ public class TurnControl : MonoBehaviour {
 			}
 	}
 		if (transform.name == "BallTurn") {
-			if (trigger.gameObject.tag == "Kill Ball") {			
+			if (trigger.gameObject.tag == "Kill Ball") {
+				killBall.transform.Rotate (new Vector3(0, -90, 0));
 				++ballCount;
 				ballCount = ballCount % 4;
 				MoveCenter ();

@@ -3,26 +3,29 @@ using System.Collections;
 
 public class MasterMoleControl : MonoBehaviour {
 
+	// public and private variables needed
+	// to count the number of points a player achieves
 	public int totalHits;
 	private MoleControl moleControl;
-	public GameObject timerObject;
-	private TimerControl timerControl;
 	private bool scoreUpdate;
 
-	// Use this for initialization
+	// Start ()
 	void Start () {
-		timerControl = timerObject.GetComponent<TimerControl> ();
 		scoreUpdate = false;
 	}
 	
-	// Update is called once per frame
+	// Update ()
 	void Update () {
-		if (timerControl.gameEnded && totalHits == 0) {
+		// waits till the game is done
+		if (TimerControl.gameEnded && totalHits == 0) {
 			scoreUpdate = true;
 		}
 		else {
 			scoreUpdate = false;
 		}
+		// cycles through all the child objects, in this instance, all
+		// the mole objects and counts how many EACH of them has been hit
+		// this determines your score
 		if (scoreUpdate) {
 			foreach (Transform child in transform) {
 				moleControl = child.gameObject.GetComponent<MoleControl>();

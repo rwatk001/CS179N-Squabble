@@ -6,11 +6,11 @@ static var waitTextString : String = "";
 var stopVec : Vector3 = Vector3.down;
 
 function Start () {
+	activeMove = true;
 
 }
 
 function Update () {
-
 	if (LineMouse.myPoints != null && activeMove) {
 		for(var point : Vector3 in LineMouse.myPoints) {
 			isStopping = false;

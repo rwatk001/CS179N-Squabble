@@ -52,6 +52,8 @@
      <Compile Include="Assets\Scripts\HealthCount.js" />
      <Compile Include="Assets\Scripts\LaunchLevel.js" />
      <Compile Include="Assets\Scripts\RocketReset.js" />
+     <Compile Include="Assets\Scripts\RocketSpawn.js" />
+     <Compile Include="Assets\Scripts\RocketSwitch.js" />
      <Compile Include="Assets\Scripts\Score.js" />
      <Compile Include="Assets\Scripts\ScoreCountSheep.js" />
      <Compile Include="Assets\Scripts\SmoothFollow.js" />

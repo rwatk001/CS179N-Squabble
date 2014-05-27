@@ -1,6 +1,4 @@
-﻿//var scoreCount : int = 0;
-
-function Start () {
+﻿function Start () {
 
 }
 
@@ -13,6 +11,7 @@ function OnTriggerEnter (inBound : Collider) {
 		ScoreCountRocket.scoreCount++;
 		AddInScore.score++;
 		Destroy(inBound.gameObject);
+		//Destroy(GameObject.Find ("Rocket(Clone)"));
 		RocketSpawn.launched = false;
 	}
 }

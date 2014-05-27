@@ -4,55 +4,75 @@ using System.Collections;
 public class RunPlayerControl : MonoBehaviour {
 
 	public GameObject player;
-	private float speed;
 	public static bool ballHit = false;
 	public static bool wallHit = false;
 	private float moveHorizontal;
-	private Vector3 movement;
+	private Vector3 newPosition;
 	private Vector3 origin;
+	private Vector3 tmpPosition;
+	private float gravity;
 	private float runningSpeed;
 	private float jump;
-	private bool eastHit;
-	private bool westHit;
+	private bool beginJump;
+	//private bool eastHit;
+	//private bool westHit;
 
 	// Use this for initialization
 	void Start () {
-		//jump = 0.0f;
-		speed = 10;
-		runningSpeed = 150f;
-		eastHit = false;
-		westHit = false;
+		gravity = 30.0f;
+		runningSpeed = 30.0f;
+		jump = 5.0f;
+		tmpPosition = Vector3.zero;
+		beginJump = false;
+		//eastHit = false;
+		//westHit = false;
+	}
+
+	public void checkPosition () {
+		if (newPosition.x <= 116.5f) {
+			newPosition.x = 116.5f;
+		}
+		if (newPosition.x >= 135.0f) {
+			newPosition.x = 135.0f;
+		}
 	}
 	
 	void FixedUpdate () {
-		moveHorizontal = Input.GetAxis ("Horizontal");
-		if (eastHit) {
-			if (moveHorizontal > 0) {
-				moveHorizontal = 0;
+		Plane playerPlane = new Plane (Vector3.up, transform.position);
+		Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
+		float hit;
+		if (playerPlane.Raycast (ray, out hit) && !ballHit) {
+			newPosition = ray.GetPoint (hit);
+			checkPosition ();
+			if (Input.GetMouseButtonDown (0)) {
+				beginJump = true;
 			}
-		}
-		else if (westHit) {
-			if (moveHorizontal < 0) {
-				moveHorizontal = 0;
-			}
-		}
-		if (!wallHit) {
-			movement = new Vector3 (moveHorizontal, 0.0f, runningSpeed * Time.deltaTime);
-		}
-		else {
-			movement = new Vector3 (moveHorizontal, 0.0f, 0.0f);
-		}
 
-		/*if (Input.GetKeyDown (KeyCode.Space)) {
-			jump = 5f;
-			movement = new Vector3 (moveHorizontal, jump * runningSpeed * Time.deltaTime, runningSpeed * Time.deltaTime);
-			if (Input.GetKeyUp (KeyCode.Space)) {
-				movement = new Vector3 (moveHorizontal, -jump * runningSpeed * Time.deltaTime, runningSpeed * Time.deltaTime);
+			if (beginJump && transform.position.y == 0) {
+				newPosition.y = jump;
 			}
-		}*/
+			else if (!beginJump) {
+				newPosition.y = 0.0f;
+			}
+			else {
+				tmpPosition.y -= gravity * Time.deltaTime;
+				newPosition.y = tmpPosition.y;
+				if (newPosition.y <= 0.0f) {
+					newPosition.y = 0.0f;
+					beginJump = false;
+				}
+			}
+			Debug.Log (newPosition);
+			if (!wallHit) {
+				newPosition.z = transform.position.z + (runningSpeed * Time.deltaTime)	;
+			}
+			else {
+				newPosition.z = transform.position.z;
+			}
 
-		if (!ballHit) {
-			player.transform.Translate (movement * speed * Time.deltaTime);
+			tmpPosition = newPosition;
+			float journey = 0.75f / Vector3.Distance (transform.position, newPosition);
+			transform.position = Vector3.Lerp (transform.position, newPosition, journey);
 		}
 	}
 
@@ -60,16 +80,24 @@ public class RunPlayerControl : MonoBehaviour {
 		if (trigger.gameObject.tag == "Wall") {
 			wallHit = true;
 		}
-		else if (trigger.gameObject.tag == "East Wall") {
+		/*else if (trigger.gameObject.tag == "East Wall") {
 			eastHit = true;
 		}
 		else if (trigger.gameObject.tag == "West Wall") {
 			westHit = true;
-		}
+		}*/
 		else if (trigger.gameObject.tag == "Kill Ball" && KillBallControl.ballMove) {
-			ballHit = true;
-			KillBallControl.ballMove = false;
-			transform.Translate(new Vector3(0.0f, -10.0f, 0.0f));
+			//if (DataContainer.isPlayMode) {
+				ballHit = true;
+				transform.Translate(new Vector3(0.0f, -10.0f, 0.0f));
+			//	--DataContainer.life;
+			//}
+			//else {
+			//}
+		}
+		else if (trigger.gameObject.tag == "Empty") {
+			//ballHit = true;
+			transform.position = new Vector3(transform.position.x, -10.0f, transform.position.z);
 		}
 	}
 
@@ -77,11 +105,11 @@ public class RunPlayerControl : MonoBehaviour {
 		if (trigger.gameObject.tag == "Wall") {
 			wallHit = false;
 		}
-		else if (trigger.gameObject.tag == "East Wall") {
+		/*else if (trigger.gameObject.tag == "East Wall") {
 			eastHit = false;
 		}
 		else if (trigger.gameObject.tag == "West Wall") {
 			westHit = false;
-		}
+		}*/
 	}
 }

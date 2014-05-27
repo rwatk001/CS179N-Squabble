@@ -63,7 +63,7 @@ public class TrainMenuControl : MonoBehaviour {
 		GUI.DrawTexture (new Rect (0, 0, boom.width, boom.height), boom);
 		GUI.skin = lazySkin;
 		if (GUI.Button (new Rect (0, 0, boom.width, boom.height), "")) {
-			//Application.LoadLevel("");
+			Application.LoadLevel("Frogger");
 		}
 		GUI.skin = playSkin;
 		GUI.Label (new Rect (0, cushionHeight+20, 700, 200), "CROSSING STREET");

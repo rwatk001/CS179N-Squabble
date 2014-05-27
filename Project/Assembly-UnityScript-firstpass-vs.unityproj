@@ -55,8 +55,6 @@
      <Compile Include="Assets\Standard Assets\Scripts\Sheep - Rocket\FollowLine.js" />
      <Compile Include="Assets\Standard Assets\Scripts\Sheep - Rocket\LineMouse.js" />
      <Compile Include="Assets\Standard Assets\Scripts\Sheep - Rocket\RocketMove.js" />
-     <Compile Include="Assets\Standard Assets\Scripts\Sheep - Rocket\RocketSpawn.js" />
-     <Compile Include="Assets\Standard Assets\Scripts\Sheep - Rocket\RocketSwitch.js" />
      <Compile Include="Assets\Standard Assets\Scripts\Sheep - Rocket\ScoreCountRocket.js" />
      <Compile Include="Assets\Standard Assets\Scripts\Sheep - Rocket\SpawnBarrels.js" />
      <Compile Include="Assets\Standard Assets\Scripts\Sheep - Rocket\SpawnPenPortal.js" />

@@ -1,4 +1,6 @@
 ﻿static var score : int;
+static var rocketScore : int;
+static var sheepScore : int;
 static var life : int = 3;
 static var tallyScore : boolean;
 var boardScore : int = 0;
@@ -48,6 +50,16 @@ function setReadyBut () {
 	}
 }
 
+// -------- ANDREW ADDED -------------
+static function reloadReset() {
+	FollowLine.activeMove = true;
+	CountSheepGO.lostLifeGO = false;
+	Timer.timesUpGO = false;
+	RocketSpawn.launched = false;
+	tallyScore = false;
+}
+// -----------------------------------
+
 function OnGUI() {
 //	setReadyBut();
 	if (tallyScore) {
@@ -57,11 +69,18 @@ function OnGUI() {
 		GUI.BeginGroup (new Rect (cushionWidth*3, cushionHeight, width, height));
 		GUI.skin = scoreSkin;
 		GUI.Label (new Rect (cushionWidth*1.3f, cushionHeight/2, width, height), "SCORE");
-		scoreCount = score;
+		if (DataContainer.gameOver) {
+			scoreCount = DataContainer.finalScore;
+		}
+		else {
+			scoreCount = score;
+			DataContainer.finalScore += scoreCount;
+		}
 		GUI.Label (new Rect (cushionWidth*1.4f, cushionHeight*3, width, height), scoreCount.ToString());
 		if (!DataContainer.isPlayMode) {
 			GUI.skin = menuSkin;
 			if (GUI.Button (new Rect (cushionWidth*2.5f, cushionHeight*6.5f, 100, 50), "BACK")) {
+				reloadReset ();
 				if (Application.loadedLevelName == "BarrelBreaker") {
 					Application.LoadLevel ("TrainMenu");
 				}
@@ -71,20 +90,23 @@ function OnGUI() {
 			}
 			GUI.skin = replaySkin;
 			if (GUI.Button (new Rect (cushionWidth*0.75f, cushionHeight*6.50f, 100, 50), "REPLAY")) {
-				Application.LoadLevel ("BarrelBreaker");
-				//Application.LoadLevel(Application.loadedLevel);
-				FollowLine.activeMove = false;
+				reloadReset ();
+				Application.LoadLevel(Application.loadedLevel);
 			}
 		}
 		else if (DataContainer.gameOver) {
 			GUI.skin = playSkin;
 			if (GUI.Button (new Rect (cushionWidth*1.8f, cushionHeight*6.5f, 100, 50), "FINISH")) {
+				reloadReset ();
+				DataContainer.life = 3;
+				DataContainer.finalScore = 0;
 				Application.LoadLevel ("Menu");
 			}
 		}
 		else {
 			GUI.skin = playSkin;
 			if (GUI.Button (new Rect (cushionWidth*1.8f, cushionHeight*6.50f, 100, 50), "CONTINUE")) {
+				reloadReset();
 				if (Application.loadedLevel == DataContainer.level_1) {
 					Application.LoadLevel (DataContainer.level_2);
 				}
@@ -95,6 +117,9 @@ function OnGUI() {
 					Application.LoadLevel (DataContainer.level_4);
 				}
 				else if (Application.loadedLevel == DataContainer.level_4) {
+					Application.LoadLevel (DataContainer.level_5);
+				}
+				else if (Application.loadedLevel == DataContainer.level_5) {
 					DataContainer.AssignLevel ();
 					Application.LoadLevel (DataContainer.level_1);
 				}
@@ -114,10 +139,7 @@ function Start () {
 	width = Screen.width;
 	cushionHeight = height * 0.10f;
 	cushionWidth = width * 0.10f;
-	helpCount = 0;
+	scoreCount = 0;
+	score = 0;
 }
 // @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-
-function Update () {
-//	updateScore();
-}

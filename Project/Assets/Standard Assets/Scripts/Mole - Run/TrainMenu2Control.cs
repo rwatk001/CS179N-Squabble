@@ -52,7 +52,7 @@ public class TrainMenu2Control : MonoBehaviour {
 		GUI.DrawTexture (new Rect (0, 0, boom.width, boom.height), boom);
 		GUI.skin = lazySkin;
 		if (GUI.Button (new Rect (0, 0, boom.width, boom.height), "")) {
-			Application.LoadLevel("Rocket Jump");
+			Application.LoadLevel("RocketJump");
 		}
 		GUI.skin = playSkin;
 		GUI.Label (new Rect (0, cushionHeight+20, 700, 200), "ROCKET JUMPS");

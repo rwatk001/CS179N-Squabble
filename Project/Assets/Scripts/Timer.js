@@ -9,15 +9,22 @@ static var timesUpGO : boolean = false;
  }
  
 function Update () {
-	if(gameTimer > 0 && !CountSheepGO.lostLifeGO){
+	// ---- ANDREW ADDED -------------
+	if (!timesUpGO) {
+		if (CountSheepGO.lostLifeGO) {
+			timesUpGO = true;
+		}
 		gameTimer -= Time.deltaTime;
 		showTime = gameTimer;
 		timeString = "Time: " + showTime;
+		if(gameTimer <= 0) {
+			timesUpGO = true;
+		}
 	}
+	else {
+		gameTimer = 30;
+	}
+	// -------------------------------
 	
 	guiText.text = timeString;
-	
-	if(gameTimer <= 0){
-		timesUpGO = true;
-	}
 }

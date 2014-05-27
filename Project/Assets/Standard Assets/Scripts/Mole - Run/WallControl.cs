@@ -12,11 +12,12 @@ public class WallControl : MonoBehaviour {
 	}
 
 	void Update() {
-		if (TurnControl.turnCount == 0 && GameObject.Find ("Player").transform.position.z > transform.position.z+5) {
+		if (GameObject.Find ("Player").transform.position.z > transform.position.z+5) {
+			KillBallControl.ballMove = true;
 			++wallScore;
 			Destroy(gameObject);
 		}
-		else if (TurnControl.turnCount == 1 && GameObject.Find ("Player").transform.position.x < transform.position.x-5) {
+		/*else if (TurnControl.turnCount == 1 && GameObject.Find ("Player").transform.position.x < transform.position.x-5) {
 			++wallScore;
 			Destroy(gameObject);
 		}
@@ -27,6 +28,6 @@ public class WallControl : MonoBehaviour {
 		else if (TurnControl.turnCount == 3 && GameObject.Find ("Player").transform.position.x > transform.position.x+5) {
 			++wallScore;
 			Destroy(gameObject);
-		}
+		}*/
 	}
 }

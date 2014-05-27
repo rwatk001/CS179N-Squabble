@@ -23,7 +23,7 @@ var rotationDamping = 3.0;
 @script AddComponentMenu("Camera-Control/Smooth Follow")
 
 // ------- ANDREW ADDED ---------------
-var runPlayerControl : RunPlayerControl;
+private var runPlayerControl : RunPlayerControl;
 function Awake () {
 	runPlayerControl = GameObject.Find ("Player").GetComponent(RunPlayerControl);
 }
@@ -61,4 +61,7 @@ function LateUpdate () {
 		// Always look at the target
 		transform.LookAt (target);
 	}
+}
+
+function FixedUpdate() {
 }

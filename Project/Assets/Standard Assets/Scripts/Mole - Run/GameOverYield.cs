@@ -9,7 +9,7 @@ public class GameOverYield : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		timerControl = timerObject.GetComponent<TimerControl> ();
+		//timerControl = timerObject.GetComponent<TimerControl> ();
 		showScoreNow = false;
 	}
 
@@ -19,7 +19,8 @@ public class GameOverYield : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if(timerControl.gameEnded) {
+		//if(timerControl.gameEnded) {
+		if (TimerControl.gameEnded) {
 			guiText.text = "Good Job Dude!";
 			StartCoroutine(Wait ());
 			showScoreNow = true; 
