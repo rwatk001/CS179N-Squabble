@@ -1,33 +1,27 @@
-﻿using UnityEngine;
+﻿// ANDREW LEGASPINO
+
+using UnityEngine;
 using System.Collections;
 
 public class KillBallControl : MonoBehaviour {
 
+	// public and private variables needed
+	// to control the kill ball's activation and movement
 	public static bool ballMove = false;
 	private float ballSpeed;
-	// Use this for initialization
+
+	// Start ()
+	// handles the speed at which the kill ball moves at
 	void Start () {
 		ballSpeed = 25f;
 	}
 	
-	// Update is called once per frame
+	// FixedUpdate ()
 	void FixedUpdate () {
-		/*if (!DataContainer.isPlayMode) {
-			this.gameObject.SetActive (false);
-		}*/
-		if (ballMove) { // && DataContainer.isPlayMode) {
-			//if (TurnControl.ballCount == 0) {
-				this.transform.Translate (transform.forward * ballSpeed * Time.deltaTime);
-			/*}
-			else if (TurnControl.ballCount == 1) {
-				this.transform.Translate (transform.right * ballSpeed * Time.deltaTime);
-			}
-			else if (TurnControl.ballCount == 2) {
-				this.transform.Translate (-transform.forward * ballSpeed * Time.deltaTime);
-			}
-			else {
-				this.transform.Translate (-transform.right * ballSpeed * Time.deltaTime);
-			}*/
+		// the kill ball activates once the player has a headstart
+		// this variable is also in control of when the kill ball moves
+		if (ballMove) { 
+			this.transform.Translate (transform.forward * ballSpeed * Time.deltaTime);
 		}
 	}	
 }

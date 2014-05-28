@@ -66,7 +66,6 @@
      <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\TimerControl.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\TrainMenu2Control.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\TrainMenuControl.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\TurnControl.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\WallControl.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\Sheep - Rocket\FollowPath.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\Street - Tomato\FroggerCheckpoint.cs" />

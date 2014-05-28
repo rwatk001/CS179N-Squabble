@@ -27,6 +27,9 @@ private var runPlayerControl : RunPlayerControl;
 function Awake () {
 	runPlayerControl = GameObject.Find ("Player").GetComponent(RunPlayerControl);
 }
+
+var killBall : GameObject;
+private var killBallPosition : Vector3;
 // ------------------------------------
 
 function LateUpdate () {
@@ -58,8 +61,16 @@ function LateUpdate () {
 		// Set the height of the camera
 		transform.position.y = currentHeight;
 		
+		killBallPosition = killBall.transform.position;
 		// Always look at the target
-		transform.LookAt (target);
+		if (Input.GetMouseButton(1)) {
+			transform.position = new Vector3 (killBallPosition.x, killBallPosition.y+50, killBallPosition.z+50);
+			//transform.rotation = Quaternion.Euler (0.0f, 55.0f, 0.0f);
+			transform.LookAt (killBall.transform);
+		}
+		else {
+			transform.LookAt (target);
+		}
 	}
 }
 

@@ -65,8 +65,6 @@ public class ScoreControl : MonoBehaviour {
 		RunPlayerControl.wallHit = false;
 		RunPlayerControl.ballHit= false;
 		KillBallControl.ballMove = false;
-		TurnControl.turnCount = 0;
-		TurnControl.ballCount = 0;
 		WallControl.wallScore = 0;
 		TimerControl.gameEnded = false;
 	}

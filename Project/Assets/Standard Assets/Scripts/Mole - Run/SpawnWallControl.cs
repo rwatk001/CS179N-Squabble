@@ -6,111 +6,91 @@ public class SpawnWallControl : MonoBehaviour {
 	public Rigidbody wall;
 	public GameObject player;
 	public GameObject travelSheep;
+	public GameObject portal;
+	public static bool obstacleReady;
+	public static bool first;
 	private float loc;
 	private float alongX;
 	private float alongZ;
+	private float originPositionZ;
 	private float distance;
 	private int switcher;
 	private Vector3 position;
 	private Quaternion rotation;
+	private int random;
+	private float counter;
+	private float counterEnd;
+	private bool extraBoolean;
 	
 	void Start () {
 		loc = 0;
 		distance = 30;
-		alongX = 0;
+		obstacleReady = false;
+		first = true;
+		counter = 0.0f;
+		counterEnd = 0.55f;
+		extraBoolean = true;
 	}
 
-	// Update is called once per frame
+	// Update ()
+	// randomly chooses to either spawn sheep obstacles or wall obstacles
 	void Update () {
-		//sheepSpawn ();
-		wallSpawn ();
+		random = Random.Range (1, 11);
+		CustomWait ();
+		if (random <= 2) {
+			sheepSpawn ();
+		}
+		else {
+			wallSpawn ();
+		}
 	}
 
+	// the goal is to have sheep spawn on the ground plane that forces the player
+	// to jump. This is will add to the reflex portion of my game
 	public void sheepSpawn () {
-		if (TurnControl.turnCount == 0) {
-			//while (GameObject.Find  ("Sheep(Clone)") != null) {
-			if (-8.3f + alongX <= 10) {
-				alongX += 1.7f;
-				position = new Vector3 (-8.3f + alongX, 0.8f, player.transform.position.z+20);
+		// the purpose of the 'first' boolean is to make the sheep move in a single line in the
+		// x direction
+		if (obstacleReady) {
+			if (first) {
+				originPositionZ = player.transform.position.z+30;
+				Instantiate (portal, new Vector3 (115.79f, 0.0f, originPositionZ), Quaternion.Euler (90.0f, 0.0f, 0.0f));
+				Instantiate (portal, new Vector3 (136.14f, 0.0f, originPositionZ), Quaternion.Euler (90.0f, 0.0f, 0.0f));
+				first = false;
+				alongX = -2.0f;
+			}
+			// this block of code handles the spawning of the sheep as an obstacle
+			if (116.0f + alongX <= 135.0f) {
+				alongX += 2.0f;
+				position = new Vector3 (116.0f + alongX, 0.8f, originPositionZ);
 				rotation = Quaternion.Euler (0.0f, 90.0f, 0.0f);
 				Instantiate (travelSheep, position, rotation);
 			}
-			//}
 		}
-		else if (TurnControl.turnCount == 1) {
-		}
-		else if (TurnControl.turnCount == 2) {
-		}
-		else {
-		}
-
 	}
 
-	public void wallSpawn () {
-		/*switcher = Random.Range (0, 2);
-		if (TurnControl.turnCount == 0) {
-			if (switcher == 0) {
-				min = -5.0f;
-				max = -1.0f;
-			}
-			else {
-				min = 1.0f;
-				max = 5.0f;
-			}
-		}
-		else if (TurnControl.turnCount == 1) {
-			if (switcher == 0) {
-				min = 76.0f;
-				max = 81.0f;
-			}
-			else {
-				min = 82.0f;
-				max = 87.0f;
-			}
-		}
-		else if (TurnControl.turnCount == 2) {
-			if (switcher == 0) {
-				min = -168.0f;
-				max = -173.0f;
-			}
-			else {
-				min = -175.0f;
-				max = -180.0f;
-			}
+	public void CustomWait() {
+		if (counter <= counterEnd) {
+			counter += Time.deltaTime;
 		}
 		else {
-			if (switcher == 0) {
-				min = -86.0f;
-				max = -91.0f;
-			}
-			else {
-				min = -93.0f;
-				max = -98.0f;
-			}
-		}*/
+			counter = 0;
+			extraBoolean = true;
+		}
+	}
+
+	// function to handle the wall spawning
+	public void wallSpawn () {
+		// randomly spawns a wall along the ground plane
 		loc = Random.Range (121.0f, 131.0f);
-		if (Random.Range (0, 25) == Random.Range (0, 25) && !RunPlayerControl.wallHit && !RunPlayerControl.ballHit) {
-			/*if (TurnControl.turnCount == 0) {
-				if (player.transform.position.z + distance <= 80) {
-					Instantiate (wall, new Vector3(loc, 0.0f, player.transform.position.z+distance), Quaternion.identity);
-				}
+		// instantiates the wall 
+		// it is important to remember these coordinates are hand pick to avoid the
+		// the player from being stuck and glitched
+		// these coordinates always gives the user a way out
+		if (extraBoolean) {
+			if (Random.Range (0, 35) <= Random.Range (0, 35) && !RunPlayerControl.wallHit && !RunPlayerControl.ballHit && obstacleReady) {
+				Instantiate (wall, new Vector3(loc, 0.0f, player.transform.position.z+distance), Quaternion.identity);
 			}
-			else if (TurnControl.turnCount == 1) {
-				if (player.transform.position.x - distance >= -166) {
-					Instantiate (wall, new Vector3(player.transform.position.x-distance, 0.0f, loc), player.transform.rotation);
-				}
-			}
-			else if (TurnControl.turnCount == 2) {
-				if (player.transform.position.z - distance >= -87) {
-					Instantiate (wall, new Vector3(loc, 0.0f, player.transform.position.z-distance), Quaternion.identity);
-				}
-			}
-			else {
-				if (player.transform.position.x + distance <= -3) {
-					Instantiate (wall, new Vector3(player.transform.position.x+distance, 0.0f, loc), player.transform.rotation);
-				}
-			}*/
-			Instantiate (wall, new Vector3(loc, 0.0f, player.transform.position.z+distance), Quaternion.identity);
+			extraBoolean = false;
 		}
 	}
 }
