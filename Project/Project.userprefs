@@ -1,15 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CharacterExplode.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ryan\EndOfGame.js">
     <Files>
-      <File FileName="Assets\Scripts\HealthCount.js" Line="10" Column="13" />
-      <File FileName="Assets\Scripts\AddInScore.js" Line="63" Column="38" />
-      <File FileName="Assets\Scripts\Timer.js" Line="12" Column="23" />
-      <File FileName="Assets\Scripts\ScoreCountRocket.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\CountSheepGO.js" Line="22" Column="3" />
-      <File FileName="Assets\Scripts\ScoreCountSheep.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\RocketReset.js" Line="14" Column="22" />
-      <File FileName="Assets\Scripts\CharacterExplode.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ryan\EndOfGame.js" Line="39" Column="25" />
+      <File FileName="Assets\Scripts\ryan\SpawnBarrels.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ryan\EndOfGame.js" Line="56" Column="2" />
+      <File FileName="Assets\Scripts\ryan\AddInScore.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ryan\FollowLine.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ryan\CharacterExplode.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ryan\Timer.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -46,36 +46,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GroupAssets\Assets\Scripts\Bus.cs" />
-     <Compile Include="Assets\GroupAssets\Assets\Scripts\Car.cs" />
-     <Compile Include="Assets\GroupAssets\Assets\Scripts\FroggerCheckpoint.cs" />
-     <Compile Include="Assets\GroupAssets\Assets\Scripts\FroggerDrawPath.cs" />
-     <Compile Include="Assets\GroupAssets\Assets\Scripts\FroggerPlayer.cs" />
-     <Compile Include="Assets\GroupAssets\Assets\Scripts\FroggerStart.cs" />
-     <Compile Include="Assets\GroupAssets\Assets\Scripts\PowerUp.cs" />
-     <Compile Include="Assets\GroupAssets\Assets\Scripts\TrafficSpawner.cs" />
-     <Compile Include="Assets\GroupAssets\Assets\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" />
-     <Compile Include="Assets\GroupAssets\Scripts\Whack-A-Mole\CameraControl.cs" />
-     <Compile Include="Assets\GroupAssets\Scripts\Whack-A-Mole\ColorControl.cs" />
-     <Compile Include="Assets\GroupAssets\Scripts\Whack-A-Mole\HammerPalletMovement.cs" />
-     <Compile Include="Assets\GroupAssets\Scripts\Whack-A-Mole\HammerStaffMovement.cs" />
-     <Compile Include="Assets\GroupAssets\Scripts\Whack-A-Mole\MasterMoleControl.cs" />
-     <Compile Include="Assets\GroupAssets\Scripts\Whack-A-Mole\MenuControl.cs" />
-     <Compile Include="Assets\GroupAssets\Scripts\Whack-A-Mole\MoleControl.cs" />
-     <Compile Include="Assets\GroupAssets\Scripts\Whack-A-Mole\PlayerControl.cs" />
-     <Compile Include="Assets\GroupAssets\Scripts\Whack-A-Mole\ScoreControl.cs" />
-     <Compile Include="Assets\GroupAssets\Scripts\Whack-A-Mole\TimerControl.cs" />
-     <Compile Include="Assets\GroupAssets\Scripts\Whack-A-Mole\TrainMenuControl.cs" />
-     <Compile Include="Assets\Scripts\FollowPath.cs" />
+     <Compile Include="Assets\Scripts\ryan\FollowPath.cs" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
-     <None Include="Assets\GroupAssets\Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
-     <None Include="Assets\GroupAssets\Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
-     <None Include="Assets\GroupAssets\Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
-     <None Include="Assets\GroupAssets\Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>

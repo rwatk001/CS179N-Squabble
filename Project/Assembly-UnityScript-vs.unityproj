@@ -46,40 +46,34 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\GroupAssets\Assets\Standard Assets\Scripts\Camera Scripts\MouseOrbit.js" />
-     <Compile Include="Assets\GroupAssets\Assets\Standard Assets\Scripts\Camera Scripts\SmoothFollow.js" />
-     <Compile Include="Assets\GroupAssets\Assets\Standard Assets\Scripts\Camera Scripts\SmoothLookAt.js" />
-     <Compile Include="Assets\GroupAssets\Assets\Standard Assets\Scripts\General Scripts\DragRigidbody.js" />
-     <Compile Include="Assets\Scripts\AddInScore.js" />
-     <Compile Include="Assets\Scripts\CharacterExplode.js" />
-     <Compile Include="Assets\Scripts\CharacterJump.js" />
-     <Compile Include="Assets\Scripts\Connect.js" />
-     <Compile Include="Assets\Scripts\CountSheepGO.js" />
-     <Compile Include="Assets\Scripts\FingerLine.js" />
-     <Compile Include="Assets\Scripts\FollowLine.js" />
-     <Compile Include="Assets\Scripts\HealthCount.js" />
-     <Compile Include="Assets\Scripts\LaunchLevel.js" />
-     <Compile Include="Assets\Scripts\LineMouse.js" />
-     <Compile Include="Assets\Scripts\RocketMove.js" />
-     <Compile Include="Assets\Scripts\RocketReset.js" />
-     <Compile Include="Assets\Scripts\RocketSpawn.js" />
-     <Compile Include="Assets\Scripts\RocketSwitch.js" />
-     <Compile Include="Assets\Scripts\Score.js" />
-     <Compile Include="Assets\Scripts\ScoreCountRocket.js" />
-     <Compile Include="Assets\Scripts\ScoreCountSheep.js" />
-     <Compile Include="Assets\Scripts\SpawnBarrels.js" />
-     <Compile Include="Assets\Scripts\SpawnPenPortal.js" />
-     <Compile Include="Assets\Scripts\Timer.js" />
-     <Compile Include="Assets\Scripts\WaitForIt.js" />
+     <Compile Include="Assets\Scripts\ryan\AddInScore.js" />
+     <Compile Include="Assets\Scripts\ryan\CharacterExplode.js" />
+     <Compile Include="Assets\Scripts\ryan\CharacterJump.js" />
+     <Compile Include="Assets\Scripts\ryan\Connect.js" />
+     <Compile Include="Assets\Scripts\ryan\CountSheepGO.js" />
+     <Compile Include="Assets\Scripts\ryan\EndOfGame.js" />
+     <Compile Include="Assets\Scripts\ryan\FingerLine.js" />
+     <Compile Include="Assets\Scripts\ryan\FollowLine.js" />
+     <Compile Include="Assets\Scripts\ryan\HealthCount.js" />
+     <Compile Include="Assets\Scripts\ryan\LaunchLevel.js" />
+     <Compile Include="Assets\Scripts\ryan\LineMouse.js" />
+     <Compile Include="Assets\Scripts\ryan\RocketMove.js" />
+     <Compile Include="Assets\Scripts\ryan\RocketReset.js" />
+     <Compile Include="Assets\Scripts\ryan\RocketSpawn.js" />
+     <Compile Include="Assets\Scripts\ryan\RocketSwitch.js" />
+     <Compile Include="Assets\Scripts\ryan\Score.js" />
+     <Compile Include="Assets\Scripts\ryan\ScoreCountRocket.js" />
+     <Compile Include="Assets\Scripts\ryan\ScoreCountSheep.js" />
+     <Compile Include="Assets\Scripts\ryan\SpawnBarrels.js" />
+     <Compile Include="Assets\Scripts\ryan\SpawnPenPortal.js" />
+     <Compile Include="Assets\Scripts\ryan\SplashClear.js" />
+     <Compile Include="Assets\Scripts\ryan\Timer.js" />
+     <Compile Include="Assets\Scripts\ryan\WaitForIt.js" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
-     <None Include="Assets\GroupAssets\Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
-     <None Include="Assets\GroupAssets\Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
-     <None Include="Assets\GroupAssets\Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
-     <None Include="Assets\GroupAssets\Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>

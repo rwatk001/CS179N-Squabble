@@ -1,0 +1,419 @@
+fileFormatVersion: 2
+guid: a92077f88894db346b4ab2bfac892607
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Chest
+    100002: //RootNode
+    100004: group
+    100006: group1
+    100008: pasted__group
+    100010: pasted__pasted__pCube4
+    100012: pasted__pCube1
+    100014: pasted__pCube4
+    100016: pasted__pCube4 1
+    100018: pCube1
+    100020: pCube3
+    100022: pCube4
+    100024: pCube5
+    100026: polySurface1
+    100028: polySurface2
+    100030: polySurface3
+    100032: polySurface4
+    100034: polySurface5
+    100036: pSphere1
+    100038: softMod10Handle
+    100040: softMod11Handle
+    100042: softMod12Handle
+    100044: softMod13Handle
+    100046: softMod14Handle
+    100048: softMod15Handle
+    100050: softMod16Handle
+    100052: softMod17Handle
+    100054: softMod18Handle
+    100056: softMod1Handle
+    100058: softMod2Handle
+    100060: softMod3Handle
+    100062: softMod4Handle
+    100064: softMod5Handle
+    100066: softMod6Handle
+    100068: softMod7Handle
+    100070: softMod8Handle
+    100072: softMod9Handle
+    100074: transform1
+    100076: transform10
+    100078: transform11
+    100080: transform12
+    100082: transform13
+    100084: transform2
+    100086: transform3
+    100088: transform4
+    100090: transform5
+    100092: transform6
+    100094: transform7
+    100096: transform8
+    100098: transform9
+    400000: Chest
+    400002: //RootNode
+    400004: group
+    400006: group1
+    400008: pasted__group
+    400010: pasted__pasted__pCube4
+    400012: pasted__pCube1
+    400014: pasted__pCube4
+    400016: pasted__pCube4 1
+    400018: pCube1
+    400020: pCube3
+    400022: pCube4
+    400024: pCube5
+    400026: polySurface1
+    400028: polySurface2
+    400030: polySurface3
+    400032: polySurface4
+    400034: polySurface5
+    400036: pSphere1
+    400038: softMod10Handle
+    400040: softMod11Handle
+    400042: softMod12Handle
+    400044: softMod13Handle
+    400046: softMod14Handle
+    400048: softMod15Handle
+    400050: softMod16Handle
+    400052: softMod17Handle
+    400054: softMod18Handle
+    400056: softMod1Handle
+    400058: softMod2Handle
+    400060: softMod3Handle
+    400062: softMod4Handle
+    400064: softMod5Handle
+    400066: softMod6Handle
+    400068: softMod7Handle
+    400070: softMod8Handle
+    400072: softMod9Handle
+    400074: transform1
+    400076: transform10
+    400078: transform11
+    400080: transform12
+    400082: transform13
+    400084: transform2
+    400086: transform3
+    400088: transform4
+    400090: transform5
+    400092: transform6
+    400094: transform7
+    400096: transform8
+    400098: transform9
+    2300000: polySurface4
+    2300002: polySurface5
+    3300000: polySurface4
+    3300002: polySurface5
+    4300000: polySurface4
+    4300002: polySurface5
+    7400000: close
+    7400002: idle
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: close
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Chest
+        weight: 1
+      - path: Chest/polySurface1
+        weight: 1
+      - path: Chest/polySurface1/transform9
+        weight: 1
+      - path: Chest/polySurface2
+        weight: 1
+      - path: Chest/polySurface2/transform12
+        weight: 1
+      - path: Chest/transform1
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/pasted__pCube1
+        weight: 1
+      - path: group/pasted__pCube1/transform13
+        weight: 1
+      - path: group/pasted__pCube4
+        weight: 1
+      - path: group/pasted__pCube4/transform2
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/pasted__group
+        weight: 1
+      - path: group1/pasted__group/pasted__pasted__pCube4
+        weight: 1
+      - path: group1/pasted__group/pasted__pasted__pCube4/transform4
+        weight: 1
+      - path: group1/pasted__pCube4 1
+        weight: 1
+      - path: group1/pasted__pCube4 1/transform5
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pCube1/transform11
+        weight: 1
+      - path: pCube3
+        weight: 1
+      - path: pCube3/transform8
+        weight: 1
+      - path: pCube4
+        weight: 1
+      - path: pCube4/transform3
+        weight: 1
+      - path: pCube5
+        weight: 1
+      - path: pCube5/transform7
+        weight: 1
+      - path: polySurface3
+        weight: 1
+      - path: polySurface3/transform10
+        weight: 1
+      - path: polySurface4
+        weight: 1
+      - path: polySurface5
+        weight: 1
+      - path: pSphere1
+        weight: 1
+      - path: pSphere1/transform6
+        weight: 1
+      - path: softMod1Handle
+        weight: 1
+      - path: softMod2Handle
+        weight: 1
+      - path: softMod3Handle
+        weight: 1
+      - path: softMod4Handle
+        weight: 1
+      - path: softMod5Handle
+        weight: 1
+      - path: softMod6Handle
+        weight: 1
+      - path: softMod7Handle
+        weight: 1
+      - path: softMod8Handle
+        weight: 1
+      - path: softMod9Handle
+        weight: 1
+      - path: softMod10Handle
+        weight: 1
+      - path: softMod11Handle
+        weight: 1
+      - path: softMod12Handle
+        weight: 1
+      - path: softMod13Handle
+        weight: 1
+      - path: softMod14Handle
+        weight: 1
+      - path: softMod15Handle
+        weight: 1
+      - path: softMod16Handle
+        weight: 1
+      - path: softMod17Handle
+        weight: 1
+      - path: softMod18Handle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 1.10000002
+      lastFrame: 1.20000005
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Chest
+        weight: 1
+      - path: Chest/polySurface1
+        weight: 1
+      - path: Chest/polySurface1/transform9
+        weight: 1
+      - path: Chest/polySurface2
+        weight: 1
+      - path: Chest/polySurface2/transform12
+        weight: 1
+      - path: Chest/transform1
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/pasted__pCube1
+        weight: 1
+      - path: group/pasted__pCube1/transform13
+        weight: 1
+      - path: group/pasted__pCube4
+        weight: 1
+      - path: group/pasted__pCube4/transform2
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/pasted__group
+        weight: 1
+      - path: group1/pasted__group/pasted__pasted__pCube4
+        weight: 1
+      - path: group1/pasted__group/pasted__pasted__pCube4/transform4
+        weight: 1
+      - path: group1/pasted__pCube4 1
+        weight: 1
+      - path: group1/pasted__pCube4 1/transform5
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pCube1/transform11
+        weight: 1
+      - path: pCube3
+        weight: 1
+      - path: pCube3/transform8
+        weight: 1
+      - path: pCube4
+        weight: 1
+      - path: pCube4/transform3
+        weight: 1
+      - path: pCube5
+        weight: 1
+      - path: pCube5/transform7
+        weight: 1
+      - path: polySurface3
+        weight: 1
+      - path: polySurface3/transform10
+        weight: 1
+      - path: polySurface4
+        weight: 1
+      - path: polySurface5
+        weight: 1
+      - path: pSphere1
+        weight: 1
+      - path: pSphere1/transform6
+        weight: 1
+      - path: softMod1Handle
+        weight: 1
+      - path: softMod2Handle
+        weight: 1
+      - path: softMod3Handle
+        weight: 1
+      - path: softMod4Handle
+        weight: 1
+      - path: softMod5Handle
+        weight: 1
+      - path: softMod6Handle
+        weight: 1
+      - path: softMod7Handle
+        weight: 1
+      - path: softMod8Handle
+        weight: 1
+      - path: softMod9Handle
+        weight: 1
+      - path: softMod10Handle
+        weight: 1
+      - path: softMod11Handle
+        weight: 1
+      - path: softMod12Handle
+        weight: 1
+      - path: softMod13Handle
+        weight: 1
+      - path: softMod14Handle
+        weight: 1
+      - path: softMod15Handle
+        weight: 1
+      - path: softMod16Handle
+        weight: 1
+      - path: softMod17Handle
+        weight: 1
+      - path: softMod18Handle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
