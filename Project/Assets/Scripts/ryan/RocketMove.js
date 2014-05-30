@@ -1,7 +1,7 @@
 ﻿var speed : float;
 
 function Start () {
-	speed = Random.Range(10,25);
+	speed = Random.Range(10,18);
 }
 
 function Update () {

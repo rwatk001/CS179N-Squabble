@@ -13,7 +13,6 @@ function Start () {
 	count = 0;
 	endCount = 100;//AddInScore.score;
 	timer = baseTime;
-//	GameObject.Find("chest").GetComponent(Animator).SetBool("close", false);
 }
 
 function Update () {
@@ -22,33 +21,38 @@ function Update () {
 		checkCount();
 }
 
+// Function to spawn the sheep that will fall into the chest
 function spawn () {
+	// If the addSheep var is true then we add a sheep and wait for next update period
 	if (addSheep) {
-//		var sheepNum : int = Random.Range(1.0, 3.0);
-//		for (var i : int = 0; i < sheepNum; i++) {
-			var position: Vector3 = Vector3(Random.Range(-7.0, 7.0), 25, Random.Range(-4.0, 4.0));
-			Instantiate(GameObject.Find("BadSheep").transform, position, Quaternion.identity);
-//		}
+		var position: Vector3 = Vector3(Random.Range(-7.0, 7.0), 25, Random.Range(-4.0, 4.0));
+		Instantiate(GameObject.Find("BadSheep").transform, position, Quaternion.identity);
+		// Create a stop to wait for next period
 		addSheep = false;
 	}
 }
 
+// Function to control the when to drop a sheep
 function checkCount () {
+	// All the sheep have fallen so close the chest
 	if (count >= endCount) {
 		addSheep = false;
 		yield WaitForSeconds(2);
 		GameObject.Find("chest").GetComponent(Animator).SetBool("close", true);
 		continueChecking = false;
 	}
+	// period is up so add a sheep and reset timer
 	else if (timer <= 0) {
 		addSheep = true;
 		timer = baseTime;
-	} else {
+	} else { // timer to create some spacing between the falling sheep
 		timer -= Time.deltaTime;
 		
 	}
 }
 
+// Function used in conjuction with a trigger collider on the chest to 
+//  determine how many sheep have fallen
 function OnTriggerEnter (inBound : Collider) {
 	if (inBound.gameObject.tag == "BadSheep") {
 		count++;
