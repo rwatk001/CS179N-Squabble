@@ -1,0 +1,161 @@
+fileFormatVersion: 2
+guid: 28997c29f5235e84ab6b1e7e2046ef25
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: group
+    100002: group1
+    100004: group2
+    100006: group3
+    100008: group4
+    100010: locator1
+    100012: pasted__pPlane1
+    100014: pasted__rock_01
+    100016: pasted__rock_01 1
+    100018: pasted__rock_02
+    100020: pasted__rock_03
+    100022: pasted__rock_03 1
+    100024: pasted__rock_04
+    100026: pasted__rock_04 1
+    100028: pasted__rock_05
+    100030: pasted__softMod1Handle
+    100032: pasted__softMod2Handle
+    100034: pasted__softMod3Handle
+    100036: pasted__softMod4Handle
+    100038: rock_01
+    100040: rock_02
+    100042: rock_03
+    100044: rock_04
+    100046: rock_05
+    100048: //RootNode
+    100050: sculptor1
+    100052: softMod1Handle
+    100054: softMod2Handle
+    100056: softMod3Handle
+    100058: softMod4Handle
+    400000: group
+    400002: group1
+    400004: group2
+    400006: group3
+    400008: group4
+    400010: locator1
+    400012: pasted__pPlane1
+    400014: pasted__rock_01
+    400016: pasted__rock_01 1
+    400018: pasted__rock_02
+    400020: pasted__rock_03
+    400022: pasted__rock_03 1
+    400024: pasted__rock_04
+    400026: pasted__rock_04 1
+    400028: pasted__rock_05
+    400030: pasted__softMod1Handle
+    400032: pasted__softMod2Handle
+    400034: pasted__softMod3Handle
+    400036: pasted__softMod4Handle
+    400038: rock_01
+    400040: rock_02
+    400042: rock_03
+    400044: rock_04
+    400046: rock_05
+    400048: //RootNode
+    400050: sculptor1
+    400052: softMod1Handle
+    400054: softMod2Handle
+    400056: softMod3Handle
+    400058: softMod4Handle
+    2300000: pasted__pPlane1
+    2300002: pasted__rock_01
+    2300004: pasted__rock_01 1
+    2300006: pasted__rock_02
+    2300008: pasted__rock_03
+    2300010: pasted__rock_03 1
+    2300012: pasted__rock_04
+    2300014: pasted__rock_04 1
+    2300016: pasted__rock_05
+    2300018: rock_01
+    2300020: rock_02
+    2300022: rock_03
+    2300024: rock_04
+    2300026: rock_05
+    3300000: pasted__pPlane1
+    3300002: pasted__rock_01
+    3300004: pasted__rock_01 1
+    3300006: pasted__rock_02
+    3300008: pasted__rock_03
+    3300010: pasted__rock_03 1
+    3300012: pasted__rock_04
+    3300014: pasted__rock_04 1
+    3300016: pasted__rock_05
+    3300018: rock_01
+    3300020: rock_02
+    3300022: rock_03
+    3300024: rock_04
+    3300026: rock_05
+    4300000: rock_01
+    4300002: rock_02
+    4300004: rock_04
+    4300006: rock_05
+    4300008: rock_03
+    4300010: pasted__rock_01
+    4300012: pasted__rock_02
+    4300014: pasted__rock_04
+    4300016: pasted__rock_05
+    4300018: pasted__rock_03
+    4300020: pasted__rock_04
+    4300022: pasted__rock_01
+    4300024: pasted__rock_03
+    4300026: pasted__pPlane1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
