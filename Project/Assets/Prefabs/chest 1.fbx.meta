@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a92077f88894db346b4ab2bfac892607
+guid: 01002bfbb68cda64ebc6f9ae07806b81
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
@@ -17,42 +17,57 @@ ModelImporter:
     100022: pCube4
     100024: pCube5
     100026: polySurface1
-    100028: polySurface2
-    100030: polySurface3
-    100032: polySurface4
-    100034: polySurface5
-    100036: pSphere1
-    100038: softMod10Handle
-    100040: softMod11Handle
-    100042: softMod12Handle
-    100044: softMod13Handle
-    100046: softMod14Handle
-    100048: softMod15Handle
-    100050: softMod16Handle
-    100052: softMod17Handle
-    100054: softMod18Handle
-    100056: softMod1Handle
-    100058: softMod2Handle
-    100060: softMod3Handle
-    100062: softMod4Handle
-    100064: softMod5Handle
-    100066: softMod6Handle
-    100068: softMod7Handle
-    100070: softMod8Handle
-    100072: softMod9Handle
-    100074: transform1
-    100076: transform10
-    100078: transform11
-    100080: transform12
-    100082: transform13
-    100084: transform2
-    100086: transform3
-    100088: transform4
-    100090: transform5
-    100092: transform6
-    100094: transform7
-    100096: transform8
-    100098: transform9
+    100028: polySurface10
+    100030: polySurface11
+    100032: polySurface12
+    100034: polySurface13
+    100036: polySurface14
+    100038: polySurface15
+    100040: polySurface16
+    100042: polySurface17
+    100044: polySurface18
+    100046: polySurface2
+    100048: polySurface3
+    100050: polySurface4
+    100052: polySurface5
+    100054: polySurface6
+    100056: polySurface7
+    100058: polySurface8
+    100060: polySurface9
+    100062: pSphere1
+    100064: softMod10Handle
+    100066: softMod11Handle
+    100068: softMod12Handle
+    100070: softMod13Handle
+    100072: softMod14Handle
+    100074: softMod15Handle
+    100076: softMod16Handle
+    100078: softMod17Handle
+    100080: softMod18Handle
+    100082: softMod1Handle
+    100084: softMod2Handle
+    100086: softMod3Handle
+    100088: softMod4Handle
+    100090: softMod5Handle
+    100092: softMod6Handle
+    100094: softMod7Handle
+    100096: softMod8Handle
+    100098: softMod9Handle
+    100100: transform1
+    100102: transform10
+    100104: transform11
+    100106: transform12
+    100108: transform13
+    100110: transform14
+    100112: transform15
+    100114: transform2
+    100116: transform3
+    100118: transform4
+    100120: transform5
+    100122: transform6
+    100124: transform7
+    100126: transform8
+    100128: transform9
     400000: Chest
     400002: //RootNode
     400004: group
@@ -67,50 +82,97 @@ ModelImporter:
     400022: pCube4
     400024: pCube5
     400026: polySurface1
-    400028: polySurface2
-    400030: polySurface3
-    400032: polySurface4
-    400034: polySurface5
-    400036: pSphere1
-    400038: softMod10Handle
-    400040: softMod11Handle
-    400042: softMod12Handle
-    400044: softMod13Handle
-    400046: softMod14Handle
-    400048: softMod15Handle
-    400050: softMod16Handle
-    400052: softMod17Handle
-    400054: softMod18Handle
-    400056: softMod1Handle
-    400058: softMod2Handle
-    400060: softMod3Handle
-    400062: softMod4Handle
-    400064: softMod5Handle
-    400066: softMod6Handle
-    400068: softMod7Handle
-    400070: softMod8Handle
-    400072: softMod9Handle
-    400074: transform1
-    400076: transform10
-    400078: transform11
-    400080: transform12
-    400082: transform13
-    400084: transform2
-    400086: transform3
-    400088: transform4
-    400090: transform5
-    400092: transform6
-    400094: transform7
-    400096: transform8
-    400098: transform9
-    2300000: polySurface4
-    2300002: polySurface5
-    3300000: polySurface4
-    3300002: polySurface5
-    4300000: polySurface4
-    4300002: polySurface5
+    400028: polySurface10
+    400030: polySurface11
+    400032: polySurface12
+    400034: polySurface13
+    400036: polySurface14
+    400038: polySurface15
+    400040: polySurface16
+    400042: polySurface17
+    400044: polySurface18
+    400046: polySurface2
+    400048: polySurface3
+    400050: polySurface4
+    400052: polySurface5
+    400054: polySurface6
+    400056: polySurface7
+    400058: polySurface8
+    400060: polySurface9
+    400062: pSphere1
+    400064: softMod10Handle
+    400066: softMod11Handle
+    400068: softMod12Handle
+    400070: softMod13Handle
+    400072: softMod14Handle
+    400074: softMod15Handle
+    400076: softMod16Handle
+    400078: softMod17Handle
+    400080: softMod18Handle
+    400082: softMod1Handle
+    400084: softMod2Handle
+    400086: softMod3Handle
+    400088: softMod4Handle
+    400090: softMod5Handle
+    400092: softMod6Handle
+    400094: softMod7Handle
+    400096: softMod8Handle
+    400098: softMod9Handle
+    400100: transform1
+    400102: transform10
+    400104: transform11
+    400106: transform12
+    400108: transform13
+    400110: transform14
+    400112: transform15
+    400114: transform2
+    400116: transform3
+    400118: transform4
+    400120: transform5
+    400122: transform6
+    400124: transform7
+    400126: transform8
+    400128: transform9
+    2300000: polySurface10
+    2300002: polySurface11
+    2300004: polySurface12
+    2300006: polySurface13
+    2300008: polySurface14
+    2300010: polySurface15
+    2300012: polySurface16
+    2300014: polySurface17
+    2300016: polySurface18
+    2300018: polySurface6
+    2300020: polySurface7
+    2300022: polySurface8
+    2300024: polySurface9
+    3300000: polySurface10
+    3300002: polySurface11
+    3300004: polySurface12
+    3300006: polySurface13
+    3300008: polySurface14
+    3300010: polySurface15
+    3300012: polySurface16
+    3300014: polySurface17
+    3300016: polySurface18
+    3300018: polySurface6
+    3300020: polySurface7
+    3300022: polySurface8
+    3300024: polySurface9
+    4300000: polySurface8
+    4300002: polySurface9
+    4300004: polySurface10
+    4300006: polySurface11
+    4300008: polySurface12
+    4300010: polySurface13
+    4300012: polySurface14
+    4300014: polySurface15
+    4300016: polySurface16
+    4300018: polySurface17
+    4300020: polySurface18
+    4300022: polySurface6
+    4300024: polySurface7
     7400000: close
-    7400002: idle
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -131,7 +193,7 @@ ModelImporter:
       name: close
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 24
+      lastFrame: 15
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -209,133 +271,37 @@ ModelImporter:
         weight: 1
       - path: polySurface4
         weight: 1
-      - path: polySurface5
+      - path: polySurface4/polySurface8
         weight: 1
-      - path: pSphere1
+      - path: polySurface4/polySurface9
         weight: 1
-      - path: pSphere1/transform6
+      - path: polySurface4/polySurface10
         weight: 1
-      - path: softMod1Handle
+      - path: polySurface4/polySurface11
         weight: 1
-      - path: softMod2Handle
+      - path: polySurface4/polySurface12
         weight: 1
-      - path: softMod3Handle
+      - path: polySurface4/polySurface13
         weight: 1
-      - path: softMod4Handle
+      - path: polySurface4/polySurface14
         weight: 1
-      - path: softMod5Handle
+      - path: polySurface4/polySurface15
         weight: 1
-      - path: softMod6Handle
+      - path: polySurface4/polySurface16
         weight: 1
-      - path: softMod7Handle
+      - path: polySurface4/polySurface17
         weight: 1
-      - path: softMod8Handle
+      - path: polySurface4/polySurface18
         weight: 1
-      - path: softMod9Handle
-        weight: 1
-      - path: softMod10Handle
-        weight: 1
-      - path: softMod11Handle
-        weight: 1
-      - path: softMod12Handle
-        weight: 1
-      - path: softMod13Handle
-        weight: 1
-      - path: softMod14Handle
-        weight: 1
-      - path: softMod15Handle
-        weight: 1
-      - path: softMod16Handle
-        weight: 1
-      - path: softMod17Handle
-        weight: 1
-      - path: softMod18Handle
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-    - serializedVersion: 16
-      name: idle
-      takeName: Take 001
-      firstFrame: 1.10000002
-      lastFrame: 1.20000005
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: Chest
-        weight: 1
-      - path: Chest/polySurface1
-        weight: 1
-      - path: Chest/polySurface1/transform9
-        weight: 1
-      - path: Chest/polySurface2
-        weight: 1
-      - path: Chest/polySurface2/transform12
-        weight: 1
-      - path: Chest/transform1
-        weight: 1
-      - path: group
-        weight: 1
-      - path: group/pasted__pCube1
-        weight: 1
-      - path: group/pasted__pCube1/transform13
-        weight: 1
-      - path: group/pasted__pCube4
-        weight: 1
-      - path: group/pasted__pCube4/transform2
-        weight: 1
-      - path: group1
-        weight: 1
-      - path: group1/pasted__group
-        weight: 1
-      - path: group1/pasted__group/pasted__pasted__pCube4
-        weight: 1
-      - path: group1/pasted__group/pasted__pasted__pCube4/transform4
-        weight: 1
-      - path: group1/pasted__pCube4 1
-        weight: 1
-      - path: group1/pasted__pCube4 1/transform5
-        weight: 1
-      - path: pCube1
-        weight: 1
-      - path: pCube1/transform11
-        weight: 1
-      - path: pCube3
-        weight: 1
-      - path: pCube3/transform8
-        weight: 1
-      - path: pCube4
-        weight: 1
-      - path: pCube4/transform3
-        weight: 1
-      - path: pCube5
-        weight: 1
-      - path: pCube5/transform7
-        weight: 1
-      - path: polySurface3
-        weight: 1
-      - path: polySurface3/transform10
-        weight: 1
-      - path: polySurface4
+      - path: polySurface4/transform15
         weight: 1
       - path: polySurface5
+        weight: 1
+      - path: polySurface5/polySurface6
+        weight: 1
+      - path: polySurface5/polySurface7
+        weight: 1
+      - path: polySurface5/transform14
         weight: 1
       - path: pSphere1
         weight: 1
@@ -382,7 +348,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: .00999999978
+    globalScale: 1
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1

@@ -6,7 +6,7 @@ static var launched : boolean = false;
 var rocket : GameObject;
 
 function Start () {
-	launched = false;
+	launched = true;
 }
 
 function Update () {

@@ -8,5 +8,6 @@ function Update () {
 	if(Input.anyKey) {
 		Destroy(this.gameObject);
 		Timer.timeStart = true;
+		RocketSpawn.launched = false;
 	}
 }

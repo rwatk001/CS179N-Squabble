@@ -38,7 +38,7 @@ function checkCount () {
 	if (count >= endCount) {
 		addSheep = false;
 		yield WaitForSeconds(2);
-		GameObject.Find("chest").GetComponent(Animator).SetBool("close", true);
+		GameObject.Find("chest 1").GetComponent(Animator).SetBool("close", true);
 		continueChecking = false;
 	}
 	// period is up so add a sheep and reset timer
