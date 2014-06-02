@@ -70,6 +70,22 @@ function OnGUI() {
 		GUI.EndGroup ();
 		// @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 	}
+	
+	if (life <= 0) {
+		GUI.BeginGroup (new Rect(0, 0, width, height));
+		GUI.Box (new Rect(cushionWidth*3, cushionHeight, width*0.40f, height*0.80f), "");
+		GUI.BeginGroup (new Rect (cushionWidth*3, cushionHeight, width, height));
+		GUI.skin = scoreSkin;
+		GUI.Label (new Rect (cushionWidth*1.3f, cushionHeight/2, width, height), "GAME OVER");
+		helpCount = score;
+		GUI.Label (new Rect (cushionWidth*1.4f, cushionHeight*3, width, height), helpCount.ToString());
+		GUI.skin = playSkin;
+		if (GUI.Button (new Rect (cushionWidth*2.5f, cushionHeight*6.50f, 100, 50), "CONTINUE")) {
+			Application.LoadLevel ("GameEnd");
+		}
+		GUI.EndGroup ();
+		GUI.EndGroup ();
+	}
 }
 
 //From WAM ScoreContol @@@@@@@@@@@@

@@ -6,19 +6,24 @@ var count : int;
 var endCount : int;
 var timer : float;
 var baseTime : float = 0.001;
+var returnToStart : boolean;
 
 function Start () {
 	addSheep = true;
 	continueChecking = true;
 	count = 0;
-	endCount = 100;//AddInScore.score;
+	endCount = AddInScore.score;
 	timer = baseTime;
+	returnToStart = false;
 }
 
 function Update () {
 	spawn();
 	if (continueChecking)
 		checkCount();
+	if (returnToStart && Input.anyKey) {
+		Application.LoadLevel ("Menu");
+	}
 }
 
 // Function to spawn the sheep that will fall into the chest
@@ -36,6 +41,8 @@ function spawn () {
 function checkCount () {
 	// All the sheep have fallen so close the chest
 	if (count >= endCount) {
+		EndGameText.display = true;
+		returnToStart = true;
 		addSheep = false;
 		yield WaitForSeconds(2);
 		GameObject.Find("chest 1").GetComponent(Animator).SetBool("close", true);
@@ -55,6 +62,7 @@ function checkCount () {
 //  determine how many sheep have fallen
 function OnTriggerEnter (inBound : Collider) {
 	if (inBound.gameObject.tag == "BadSheep") {
+		GameObject.Find("chest 1").audio.Play();
 		count++;
 	}
 }

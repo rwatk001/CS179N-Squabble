@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\andrew\DataContainer.cs" />
+     <Compile Include="Assets\Scripts\andrew\MenuControl.cs" />
      <Compile Include="Assets\Scripts\ryan\FollowPath.cs" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />

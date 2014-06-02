@@ -16,6 +16,7 @@ function OnTriggerEnter (inBound : Collider) {
 		scoreString = "x" + scoreCount;
 		GameObject.Find("Pen").GetComponent(ParticleSystem).Play();
 		Destroy(inBound.gameObject);
+		audio.Play();
 		SpawnBarrels.moreSheeps = true;
 	}
 	
@@ -24,6 +25,7 @@ function OnTriggerEnter (inBound : Collider) {
 //		Debug.Log(lifePoints);
 		CountSheepGO.lostLifeGO = true;
 		GameObject.Find("Pen").GetComponent(ParticleSystem).Play();
+		GameObject.Find("GoodSheep").audio.Play();
 		Destroy(inBound.gameObject);
 	}
 }

@@ -51,11 +51,13 @@
      <Compile Include="Assets\Scripts\ryan\CharacterJump.js" />
      <Compile Include="Assets\Scripts\ryan\Connect.js" />
      <Compile Include="Assets\Scripts\ryan\CountSheepGO.js" />
+     <Compile Include="Assets\Scripts\ryan\EndGameText.js" />
      <Compile Include="Assets\Scripts\ryan\EndOfGame.js" />
      <Compile Include="Assets\Scripts\ryan\FingerLine.js" />
      <Compile Include="Assets\Scripts\ryan\FollowLine.js" />
      <Compile Include="Assets\Scripts\ryan\HealthCount.js" />
      <Compile Include="Assets\Scripts\ryan\LaunchLevel.js" />
+     <Compile Include="Assets\Scripts\ryan\LifeTracker.js" />
      <Compile Include="Assets\Scripts\ryan\LineMouse.js" />
      <Compile Include="Assets\Scripts\ryan\RocketMove.js" />
      <Compile Include="Assets\Scripts\ryan\RocketReset.js" />
@@ -69,6 +71,7 @@
      <Compile Include="Assets\Scripts\ryan\SplashClear.js" />
      <Compile Include="Assets\Scripts\ryan\Timer.js" />
      <Compile Include="Assets\Scripts\ryan\WaitForIt.js" />
+     <Compile Include="Assets\Scripts\ryan\openPlay.js" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />

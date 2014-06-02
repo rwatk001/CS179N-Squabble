@@ -2,8 +2,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ryan\EndOfGame.js">
     <Files>
-      <File FileName="Assets\Scripts\ryan\EndOfGame.js" Line="41" Column="26" />
-      <File FileName="..\..\..\testGame\CS179N-Squabble-master\Project\Assets\Standard Assets\Scripts\Mole - Run\MenuControl.cs" Line="35" Column="90" />
+      <File FileName="Assets\Scripts\ryan\ScoreCountSheep.js" Line="28" Column="45" />
+      <File FileName="Assets\Scripts\ryan\CharacterExplode.js" Line="15" Column="47" />
+      <File FileName="Assets\Scripts\ryan\EndOfGame.js" Line="65" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
