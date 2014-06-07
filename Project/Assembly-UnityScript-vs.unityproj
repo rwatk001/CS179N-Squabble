@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{9962C6E1-CB33-FB1E-A2C4-B89F7052FC93}</ProjectGuid>
+	<ProjectGuid>{C659B8BC-BC39-7262-8A7A-0B7EB8C1BC9C}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,29 +46,42 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\AddInScore.js" />
-     <Compile Include="Assets\Scripts\CharacterExplode.js" />
-     <Compile Include="Assets\Scripts\CountSheepGO.js" />
-     <Compile Include="Assets\Scripts\HealthCount.js" />
-     <Compile Include="Assets\Scripts\LaunchLevel.js" />
-     <Compile Include="Assets\Scripts\RocketReset.js" />
-     <Compile Include="Assets\Scripts\RocketSpawn.js" />
-     <Compile Include="Assets\Scripts\RocketSwitch.js" />
-     <Compile Include="Assets\Scripts\Score.js" />
-     <Compile Include="Assets\Scripts\ScoreCountSheep.js" />
-     <Compile Include="Assets\Scripts\SmoothFollow.js" />
-     <Compile Include="Assets\Scripts\Timer.js" />
+     <Compile Include="Assets\Scripts\ryan\AddInScore.js" />
+     <Compile Include="Assets\Scripts\ryan\CharacterExplode.js" />
+     <Compile Include="Assets\Scripts\ryan\CharacterJump.js" />
+     <Compile Include="Assets\Scripts\ryan\Connect.js" />
+     <Compile Include="Assets\Scripts\ryan\CountSheepGO.js" />
+     <Compile Include="Assets\Scripts\ryan\EndGameText.js" />
+     <Compile Include="Assets\Scripts\ryan\EndOfGame.js" />
+     <Compile Include="Assets\Scripts\ryan\FingerLine.js" />
+     <Compile Include="Assets\Scripts\ryan\FollowLine.js" />
+     <Compile Include="Assets\Scripts\ryan\HealthCount.js" />
+     <Compile Include="Assets\Scripts\ryan\LaunchLevel.js" />
+     <Compile Include="Assets\Scripts\ryan\LifeTracker.js" />
+     <Compile Include="Assets\Scripts\ryan\LineMouse.js" />
+     <Compile Include="Assets\Scripts\ryan\RocketMove.js" />
+     <Compile Include="Assets\Scripts\ryan\RocketReset.js" />
+     <Compile Include="Assets\Scripts\ryan\RocketSpawn.js" />
+     <Compile Include="Assets\Scripts\ryan\RocketSwitch.js" />
+     <Compile Include="Assets\Scripts\ryan\Score.js" />
+     <Compile Include="Assets\Scripts\ryan\ScoreCountRocket.js" />
+     <Compile Include="Assets\Scripts\ryan\ScoreCountSheep.js" />
+     <Compile Include="Assets\Scripts\ryan\SmoothFollow.js" />
+     <Compile Include="Assets\Scripts\ryan\SpawnBarrels.js" />
+     <Compile Include="Assets\Scripts\ryan\SpawnPenPortal.js" />
+     <Compile Include="Assets\Scripts\ryan\SplashClear.js" />
+     <Compile Include="Assets\Scripts\ryan\Timer.js" />
+     <Compile Include="Assets\Scripts\ryan\WaitForIt.js" />
+     <Compile Include="Assets\Scripts\ryan\openPlay.js" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
- <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
- </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
-      <Project>{6C4EA82E-48E5-FFD4-921E-FE312FB76978}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+      <Project>{74569B50-A31B-E2A7-40E6-9303666E401D}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

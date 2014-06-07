@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{6C4EA82E-48E5-FFD4-921E-FE312FB76978}</ProjectGuid>
+	<ProjectGuid>{74569B50-A31B-E2A7-40E6-9303666E401D}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,33 +46,30 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\CameraControl.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\DataContainer.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\GameOverYield.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\KillBallControl.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\MasterMoleControl.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\MenuControl.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\MoleControl.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\PathControl.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\PlayerControl.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\RunCameraControl.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\RunPlayerControl.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\ScoreControl.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\SheepFollow.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\SheepSpawn.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\ShutterControl.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\SpawnWallControl.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\TimerControl.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\TrainMenu2Control.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\TrainMenuControl.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Mole - Run\WallControl.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Sheep - Rocket\FollowPath.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Street - Tomato\FroggerCheckpoint.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Street - Tomato\FroggerPlayer.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Street - Tomato\FroggerStart.cs" />
-     <Compile Include="Assets\Standard Assets\Scripts\Street - Tomato\TrafficSpawner.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\andrew\CameraControl.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\andrew\DataContainer.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\andrew\GameOverYield.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\andrew\KillBallControl.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\andrew\MasterMoleControl.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\andrew\MenuControl.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\andrew\MoleControl.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\andrew\PathControl.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\andrew\PlayerControl.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\andrew\RunCameraControl.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\andrew\RunPlayerControl.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\andrew\ScoreControl.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\andrew\SheepFollow.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\andrew\SheepSpawn.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\andrew\ShutterControl.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\andrew\SpawnWallControl.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\andrew\SplashScreen.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\andrew\TimerControl.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\andrew\TrainMenu2Control.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\andrew\TrainMenuControl.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\andrew\TrainMenuList.cs" />
+     <Compile Include="Assets\Standard Assets\Scripts\andrew\WallControl.cs" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
