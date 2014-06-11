@@ -1,0 +1,610 @@
+fileFormatVersion: 2
+guid: 4f3a074e072691046a19de8c13b46b32
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: group
+    100004: group1
+    100006: group10
+    100008: group11
+    100010: group12
+    100012: group13
+    100014: group14
+    100016: group15
+    100018: group16
+    100020: group17
+    100022: group18
+    100024: group19
+    100026: group2
+    100028: group20
+    100030: group21
+    100032: group22
+    100034: group23
+    100036: group24
+    100038: group25
+    100040: group26
+    100042: group3
+    100044: group4
+    100046: group5
+    100048: group6
+    100050: group7
+    100052: group8
+    100054: group9
+    100056: metal_fence_column_2
+    100058: metal_fence_large_concrete_base
+    100060: metal_fence_medium_concrete_base
+    100062: metal_fence_small_concrete_base
+    100064: metal_fence_small_spear_top
+    100066: pasted__group
+    100068: pasted__group12
+    100070: pasted__group12 1
+    100072: pasted__group12 2
+    100074: pasted__group12 3
+    100076: pasted__group12 4
+    100078: pasted__group12 5
+    100080: pasted__group13
+    100082: pasted__group13 1
+    100084: pasted__group13 2
+    100086: pasted__group14
+    100088: pasted__group14 1
+    100090: pasted__group14 2
+    100092: pasted__group15
+    100094: pasted__group15 1
+    100096: pasted__group15 2
+    100098: pasted__group2
+    100100: pasted__group20
+    100102: pasted__group20 1
+    100104: pasted__group20 2
+    100106: pasted__group20 3
+    100108: pasted__group21
+    100110: pasted__group23
+    100112: pasted__group5
+    100114: pasted__group6
+    100116: pasted__group6 1
+    100118: pasted__group7
+    100120: pasted__group8
+    100122: pasted__group9
+    100124: pasted__group9 1
+    100126: pasted__metal_fence_column_2
+    100128: pasted__metal_fence_column_2 1
+    100130: pasted__metal_fence_small_concrete_base
+    100132: pasted__metal_fence_small_concrete_base 1
+    100134: pasted__metal_fence_small_concrete_base 2
+    100136: pasted__metal_fence_small_concrete_base 3
+    100138: pasted__metal_fence_small_spear_top
+    100140: pasted__metal_fence_small_spear_top 1
+    100142: pasted__metal_fence_small_spear_top 2
+    100144: pasted__metal_fence_small_spear_top 3
+    100146: pasted__pasted__group12
+    100148: pasted__pasted__group12 1
+    100150: pasted__pasted__group12 2
+    100152: pasted__pasted__group12 3
+    100154: pasted__pasted__group12 4
+    100156: pasted__pasted__group12 5
+    100158: pasted__pasted__group12 6
+    100160: pasted__pasted__group12 7
+    100162: pasted__pasted__group12 8
+    100164: pasted__pasted__group20
+    100166: pasted__pasted__group20 1
+    100168: pasted__pasted__group5
+    100170: pasted__pasted__group5 1
+    100172: pasted__pasted__group6
+    100174: pasted__pasted__group6 1
+    100176: pasted__pasted__group6 2
+    100178: pasted__pasted__group7
+    100180: pasted__pasted__group7 1
+    100182: pasted__pasted__group8
+    100184: pasted__pasted__group8 1
+    100186: pasted__pasted__metal_fence_column_2
+    100188: pasted__pasted__metal_fence_small_concrete_base
+    100190: pasted__pasted__metal_fence_small_concrete_base 1
+    100192: pasted__pasted__metal_fence_small_concrete_base 2
+    100194: pasted__pasted__metal_fence_small_concrete_base 3
+    100196: pasted__pasted__metal_fence_small_concrete_base 4
+    100198: pasted__pasted__metal_fence_small_concrete_base 5
+    100200: pasted__pasted__metal_fence_small_spear_top
+    100202: pasted__pasted__metal_fence_small_spear_top 1
+    100204: pasted__pasted__metal_fence_small_spear_top 2
+    100206: pasted__pasted__metal_fence_small_spear_top 3
+    100208: pasted__pasted__metal_fence_small_spear_top 4
+    100210: pasted__pasted__metal_fence_small_spear_top 5
+    100212: pasted__pasted__pasted__group6
+    100214: pasted__pasted__pasted__group6 1
+    100216: pasted__pasted__pasted__metal_fence_small_concrete_base
+    100218: pasted__pasted__pasted__metal_fence_small_concrete_base 1
+    100220: pasted__pasted__pasted__metal_fence_small_concrete_base 2
+    100222: pasted__pasted__pasted__metal_fence_small_concrete_base 3
+    100224: pasted__pasted__pasted__metal_fence_small_concrete_base 4
+    100226: pasted__pasted__pasted__metal_fence_small_concrete_base 5
+    100228: pasted__pasted__pasted__metal_fence_small_concrete_base 6
+    100230: pasted__pasted__pasted__metal_fence_small_spear_top
+    100232: pasted__pasted__pasted__metal_fence_small_spear_top 1
+    100234: pasted__pasted__pasted__metal_fence_small_spear_top 2
+    100236: pasted__pasted__pasted__metal_fence_small_spear_top 3
+    100238: pasted__pasted__pasted__metal_fence_small_spear_top 4
+    100240: pasted__pasted__pasted__metal_fence_small_spear_top 5
+    100242: pasted__pasted__pasted__metal_fence_small_spear_top 6
+    100244: pasted__pasted__pasted__metal_fence_small_spear_top 7
+    100246: pasted__pasted__pasted__metal_fence_small_spear_top 8
+    100248: pasted__pasted__pasted__pasted__metal_fence_small_concrete_base
+    100250: pasted__pasted__pasted__pasted__metal_fence_small_concrete_base 1
+    100252: pasted__pasted__pasted__Tombstone_RIP
+    100254: pasted__pasted__pasted__Tombstone_RIP 1
+    100256: pasted__pasted__pCube4
+    100258: pasted__pasted__Tombstone_RIP
+    100260: pasted__pasted__Tombstone_RIP 1
+    100262: pasted__pasted__Tombstone_RIP 2
+    100264: pasted__pasted__Tombstone_RIP 3
+    100266: pasted__pCube4
+    100268: pasted__pCube4 1
+    100270: pasted__polySurface1
+    100272: pasted__polySurface1 1
+    100274: pasted__polySurface3
+    100276: pasted__polySurface3 1
+    100278: pasted__Tombstone_RIP
+    100280: pasted__Tombstone_RIP 1
+    100282: pasted__transform10
+    100284: pasted__transform10 1
+    100286: pasted__transform11
+    100288: pasted__transform11 1
+    100290: pasted__transform12
+    100292: pasted__transform12 1
+    100294: pasted__transform13
+    100296: pasted__transform13 1
+    100298: pasted__transform19
+    100300: pasted__transform19 1
+    100302: pasted__transform20
+    100304: pasted__transform20 1
+    100306: pasted__transform21
+    100308: pasted__transform21 1
+    100310: pasted__transform22
+    100312: pasted__transform22 1
+    100314: pasted__transform23
+    100316: pasted__transform23 1
+    100318: pasted__transform9
+    100320: pasted__transform9 1
+    100322: pCube1
+    100324: pCube3
+    100326: pCube4
+    100328: pCube5
+    100330: polySurface1
+    100332: polySurface2
+    100334: polySurface3
+    100336: pPlane1
+    100338: pSphere1
+    100340: softMod10Handle
+    100342: softMod11Handle
+    100344: softMod12Handle
+    100346: softMod13Handle
+    100348: softMod14Handle
+    100350: softMod15Handle
+    100352: softMod16Handle
+    100354: softMod17Handle
+    100356: softMod18Handle
+    100358: softMod19Handle
+    100360: softMod1Handle
+    100362: softMod20Handle
+    100364: softMod21Handle
+    100366: softMod22Handle
+    100368: softMod23Handle
+    100370: softMod24Handle
+    100372: softMod25Handle
+    100374: softMod26Handle
+    100376: softMod27Handle
+    100378: softMod28Handle
+    100380: softMod29Handle
+    100382: softMod2Handle
+    100384: softMod30Handle
+    100386: softMod31Handle
+    100388: softMod32Handle
+    100390: softMod33Handle
+    100392: softMod34Handle
+    100394: softMod35Handle
+    100396: softMod36Handle
+    100398: softMod37Handle
+    100400: softMod38Handle
+    100402: softMod39Handle
+    100404: softMod3Handle
+    100406: softMod4Handle
+    100408: softMod5Handle
+    100410: softMod6Handle
+    100412: softMod7Handle
+    100414: softMod8Handle
+    100416: softMod9Handle
+    100418: Tombstone_RIP
+    100420: transform1
+    100422: transform10
+    100424: transform11
+    100426: transform12
+    100428: transform13
+    100430: transform14
+    100432: transform15
+    100434: transform16
+    100436: transform17
+    100438: transform18
+    100440: transform19
+    100442: transform2
+    100444: transform20
+    100446: transform21
+    100448: transform22
+    100450: transform23
+    100452: transform3
+    100454: transform4
+    100456: transform5
+    100458: transform6
+    100460: transform7
+    100462: transform8
+    100464: transform9
+    400000: //RootNode
+    400002: group
+    400004: group1
+    400006: group10
+    400008: group11
+    400010: group12
+    400012: group13
+    400014: group14
+    400016: group15
+    400018: group16
+    400020: group17
+    400022: group18
+    400024: group19
+    400026: group2
+    400028: group20
+    400030: group21
+    400032: group22
+    400034: group23
+    400036: group24
+    400038: group25
+    400040: group26
+    400042: group3
+    400044: group4
+    400046: group5
+    400048: group6
+    400050: group7
+    400052: group8
+    400054: group9
+    400056: metal_fence_column_2
+    400058: metal_fence_large_concrete_base
+    400060: metal_fence_medium_concrete_base
+    400062: metal_fence_small_concrete_base
+    400064: metal_fence_small_spear_top
+    400066: pasted__group
+    400068: pasted__group12
+    400070: pasted__group12 1
+    400072: pasted__group12 2
+    400074: pasted__group12 3
+    400076: pasted__group12 4
+    400078: pasted__group12 5
+    400080: pasted__group13
+    400082: pasted__group13 1
+    400084: pasted__group13 2
+    400086: pasted__group14
+    400088: pasted__group14 1
+    400090: pasted__group14 2
+    400092: pasted__group15
+    400094: pasted__group15 1
+    400096: pasted__group15 2
+    400098: pasted__group2
+    400100: pasted__group20
+    400102: pasted__group20 1
+    400104: pasted__group20 2
+    400106: pasted__group20 3
+    400108: pasted__group21
+    400110: pasted__group23
+    400112: pasted__group5
+    400114: pasted__group6
+    400116: pasted__group6 1
+    400118: pasted__group7
+    400120: pasted__group8
+    400122: pasted__group9
+    400124: pasted__group9 1
+    400126: pasted__metal_fence_column_2
+    400128: pasted__metal_fence_column_2 1
+    400130: pasted__metal_fence_small_concrete_base
+    400132: pasted__metal_fence_small_concrete_base 1
+    400134: pasted__metal_fence_small_concrete_base 2
+    400136: pasted__metal_fence_small_concrete_base 3
+    400138: pasted__metal_fence_small_spear_top
+    400140: pasted__metal_fence_small_spear_top 1
+    400142: pasted__metal_fence_small_spear_top 2
+    400144: pasted__metal_fence_small_spear_top 3
+    400146: pasted__pasted__group12
+    400148: pasted__pasted__group12 1
+    400150: pasted__pasted__group12 2
+    400152: pasted__pasted__group12 3
+    400154: pasted__pasted__group12 4
+    400156: pasted__pasted__group12 5
+    400158: pasted__pasted__group12 6
+    400160: pasted__pasted__group12 7
+    400162: pasted__pasted__group12 8
+    400164: pasted__pasted__group20
+    400166: pasted__pasted__group20 1
+    400168: pasted__pasted__group5
+    400170: pasted__pasted__group5 1
+    400172: pasted__pasted__group6
+    400174: pasted__pasted__group6 1
+    400176: pasted__pasted__group6 2
+    400178: pasted__pasted__group7
+    400180: pasted__pasted__group7 1
+    400182: pasted__pasted__group8
+    400184: pasted__pasted__group8 1
+    400186: pasted__pasted__metal_fence_column_2
+    400188: pasted__pasted__metal_fence_small_concrete_base
+    400190: pasted__pasted__metal_fence_small_concrete_base 1
+    400192: pasted__pasted__metal_fence_small_concrete_base 2
+    400194: pasted__pasted__metal_fence_small_concrete_base 3
+    400196: pasted__pasted__metal_fence_small_concrete_base 4
+    400198: pasted__pasted__metal_fence_small_concrete_base 5
+    400200: pasted__pasted__metal_fence_small_spear_top
+    400202: pasted__pasted__metal_fence_small_spear_top 1
+    400204: pasted__pasted__metal_fence_small_spear_top 2
+    400206: pasted__pasted__metal_fence_small_spear_top 3
+    400208: pasted__pasted__metal_fence_small_spear_top 4
+    400210: pasted__pasted__metal_fence_small_spear_top 5
+    400212: pasted__pasted__pasted__group6
+    400214: pasted__pasted__pasted__group6 1
+    400216: pasted__pasted__pasted__metal_fence_small_concrete_base
+    400218: pasted__pasted__pasted__metal_fence_small_concrete_base 1
+    400220: pasted__pasted__pasted__metal_fence_small_concrete_base 2
+    400222: pasted__pasted__pasted__metal_fence_small_concrete_base 3
+    400224: pasted__pasted__pasted__metal_fence_small_concrete_base 4
+    400226: pasted__pasted__pasted__metal_fence_small_concrete_base 5
+    400228: pasted__pasted__pasted__metal_fence_small_concrete_base 6
+    400230: pasted__pasted__pasted__metal_fence_small_spear_top
+    400232: pasted__pasted__pasted__metal_fence_small_spear_top 1
+    400234: pasted__pasted__pasted__metal_fence_small_spear_top 2
+    400236: pasted__pasted__pasted__metal_fence_small_spear_top 3
+    400238: pasted__pasted__pasted__metal_fence_small_spear_top 4
+    400240: pasted__pasted__pasted__metal_fence_small_spear_top 5
+    400242: pasted__pasted__pasted__metal_fence_small_spear_top 6
+    400244: pasted__pasted__pasted__metal_fence_small_spear_top 7
+    400246: pasted__pasted__pasted__metal_fence_small_spear_top 8
+    400248: pasted__pasted__pasted__pasted__metal_fence_small_concrete_base
+    400250: pasted__pasted__pasted__pasted__metal_fence_small_concrete_base 1
+    400252: pasted__pasted__pasted__Tombstone_RIP
+    400254: pasted__pasted__pasted__Tombstone_RIP 1
+    400256: pasted__pasted__pCube4
+    400258: pasted__pasted__Tombstone_RIP
+    400260: pasted__pasted__Tombstone_RIP 1
+    400262: pasted__pasted__Tombstone_RIP 2
+    400264: pasted__pasted__Tombstone_RIP 3
+    400266: pasted__pCube4
+    400268: pasted__pCube4 1
+    400270: pasted__polySurface1
+    400272: pasted__polySurface1 1
+    400274: pasted__polySurface3
+    400276: pasted__polySurface3 1
+    400278: pasted__Tombstone_RIP
+    400280: pasted__Tombstone_RIP 1
+    400282: pasted__transform10
+    400284: pasted__transform10 1
+    400286: pasted__transform11
+    400288: pasted__transform11 1
+    400290: pasted__transform12
+    400292: pasted__transform12 1
+    400294: pasted__transform13
+    400296: pasted__transform13 1
+    400298: pasted__transform19
+    400300: pasted__transform19 1
+    400302: pasted__transform20
+    400304: pasted__transform20 1
+    400306: pasted__transform21
+    400308: pasted__transform21 1
+    400310: pasted__transform22
+    400312: pasted__transform22 1
+    400314: pasted__transform23
+    400316: pasted__transform23 1
+    400318: pasted__transform9
+    400320: pasted__transform9 1
+    400322: pCube1
+    400324: pCube3
+    400326: pCube4
+    400328: pCube5
+    400330: polySurface1
+    400332: polySurface2
+    400334: polySurface3
+    400336: pPlane1
+    400338: pSphere1
+    400340: softMod10Handle
+    400342: softMod11Handle
+    400344: softMod12Handle
+    400346: softMod13Handle
+    400348: softMod14Handle
+    400350: softMod15Handle
+    400352: softMod16Handle
+    400354: softMod17Handle
+    400356: softMod18Handle
+    400358: softMod19Handle
+    400360: softMod1Handle
+    400362: softMod20Handle
+    400364: softMod21Handle
+    400366: softMod22Handle
+    400368: softMod23Handle
+    400370: softMod24Handle
+    400372: softMod25Handle
+    400374: softMod26Handle
+    400376: softMod27Handle
+    400378: softMod28Handle
+    400380: softMod29Handle
+    400382: softMod2Handle
+    400384: softMod30Handle
+    400386: softMod31Handle
+    400388: softMod32Handle
+    400390: softMod33Handle
+    400392: softMod34Handle
+    400394: softMod35Handle
+    400396: softMod36Handle
+    400398: softMod37Handle
+    400400: softMod38Handle
+    400402: softMod39Handle
+    400404: softMod3Handle
+    400406: softMod4Handle
+    400408: softMod5Handle
+    400410: softMod6Handle
+    400412: softMod7Handle
+    400414: softMod8Handle
+    400416: softMod9Handle
+    400418: Tombstone_RIP
+    400420: transform1
+    400422: transform10
+    400424: transform11
+    400426: transform12
+    400428: transform13
+    400430: transform14
+    400432: transform15
+    400434: transform16
+    400436: transform17
+    400438: transform18
+    400440: transform19
+    400442: transform2
+    400444: transform20
+    400446: transform21
+    400448: transform22
+    400450: transform23
+    400452: transform3
+    400454: transform4
+    400456: transform5
+    400458: transform6
+    400460: transform7
+    400462: transform8
+    400464: transform9
+    2300000: metal_fence_column_2
+    2300002: metal_fence_large_concrete_base
+    2300004: metal_fence_medium_concrete_base
+    2300006: pasted__metal_fence_column_2
+    2300008: pasted__metal_fence_column_2 1
+    2300010: pasted__metal_fence_small_spear_top 1
+    2300012: pasted__pasted__metal_fence_column_2
+    2300014: pasted__pasted__metal_fence_small_spear_top 3
+    2300016: pasted__pasted__pasted__metal_fence_small_spear_top
+    2300018: pasted__pasted__pasted__metal_fence_small_spear_top 1
+    2300020: pasted__pasted__pasted__metal_fence_small_spear_top 2
+    2300022: pasted__pasted__pasted__Tombstone_RIP
+    2300024: pasted__pasted__pasted__Tombstone_RIP 1
+    2300026: pasted__pasted__Tombstone_RIP
+    2300028: pasted__pasted__Tombstone_RIP 1
+    2300030: pasted__pasted__Tombstone_RIP 2
+    2300032: pasted__pasted__Tombstone_RIP 3
+    2300034: pasted__polySurface1
+    2300036: pasted__polySurface1 1
+    2300038: pasted__polySurface3
+    2300040: pasted__polySurface3 1
+    2300042: pasted__Tombstone_RIP
+    2300044: pasted__Tombstone_RIP 1
+    2300046: polySurface1
+    2300048: polySurface2
+    2300050: polySurface3
+    2300052: pPlane1
+    2300054: Tombstone_RIP
+    3300000: metal_fence_column_2
+    3300002: metal_fence_large_concrete_base
+    3300004: metal_fence_medium_concrete_base
+    3300006: pasted__metal_fence_column_2
+    3300008: pasted__metal_fence_column_2 1
+    3300010: pasted__metal_fence_small_spear_top 1
+    3300012: pasted__pasted__metal_fence_column_2
+    3300014: pasted__pasted__metal_fence_small_spear_top 3
+    3300016: pasted__pasted__pasted__metal_fence_small_spear_top
+    3300018: pasted__pasted__pasted__metal_fence_small_spear_top 1
+    3300020: pasted__pasted__pasted__metal_fence_small_spear_top 2
+    3300022: pasted__pasted__pasted__Tombstone_RIP
+    3300024: pasted__pasted__pasted__Tombstone_RIP 1
+    3300026: pasted__pasted__Tombstone_RIP
+    3300028: pasted__pasted__Tombstone_RIP 1
+    3300030: pasted__pasted__Tombstone_RIP 2
+    3300032: pasted__pasted__Tombstone_RIP 3
+    3300034: pasted__polySurface1
+    3300036: pasted__polySurface1 1
+    3300038: pasted__polySurface3
+    3300040: pasted__polySurface3 1
+    3300042: pasted__Tombstone_RIP
+    3300044: pasted__Tombstone_RIP 1
+    3300046: polySurface1
+    3300048: polySurface2
+    3300050: polySurface3
+    3300052: pPlane1
+    3300054: Tombstone_RIP
+    4300000: pPlane1
+    4300002: Tombstone_RIP
+    4300004: metal_fence_medium_concrete_base
+    4300006: metal_fence_large_concrete_base
+    4300008: metal_fence_column_2
+    4300010: pasted__metal_fence_column_2
+    4300012: pasted__pasted__metal_fence_column_2
+    4300014: pasted__metal_fence_column_2
+    4300016: polySurface1
+    4300018: pasted__polySurface1
+    4300020: pasted__polySurface1
+    4300022: polySurface2
+    4300024: pasted__metal_fence_small_spear_top
+    4300026: pasted__pasted__metal_fence_small_spear_top
+    4300028: pasted__pasted__pasted__metal_fence_small_spear_top
+    4300030: pasted__pasted__pasted__metal_fence_small_spear_top
+    4300032: pasted__pasted__pasted__metal_fence_small_spear_top
+    4300034: polySurface3
+    4300036: pasted__polySurface3
+    4300038: pasted__polySurface3
+    4300040: pasted__Tombstone_RIP
+    4300042: pasted__Tombstone_RIP
+    4300044: pasted__pasted__Tombstone_RIP
+    4300046: pasted__pasted__Tombstone_RIP
+    4300048: pasted__pasted__Tombstone_RIP
+    4300050: pasted__pasted__Tombstone_RIP
+    4300052: pasted__pasted__pasted__Tombstone_RIP
+    4300054: pasted__pasted__pasted__Tombstone_RIP
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

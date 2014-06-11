@@ -1,0 +1,866 @@
+fileFormatVersion: 2
+guid: e4fa1a795db5b1747862e095834316a8
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: bend1Handle
+    100002: group
+    100004: group1
+    100006: group2
+    100008: pasted__group
+    100010: pasted__group1
+    100012: pasted__pasted__pCube4
+    100014: pasted__pasted__pCube4 1
+    100016: pasted__pCube4
+    100018: pasted__pCube4 1
+    100020: pasted__pCylinder1
+    100022: pasted__pSphere1
+    100024: pCube1
+    100026: pCube3
+    100028: pCube4
+    100030: pCube5
+    100032: pCylinder1
+    100034: polySurface1
+    100036: polySurface3
+    100038: pPipe1
+    100040: pSphere1
+    100042: pSphere2
+    100044: softMod10Handle
+    100046: softMod11Handle
+    100048: softMod12Handle
+    100050: softMod13Handle
+    100052: softMod14Handle
+    100054: softMod15Handle
+    100056: softMod16Handle
+    100058: softMod17Handle
+    100060: softMod18Handle
+    100062: softMod1Handle
+    100064: softMod2Handle
+    100066: softMod3Handle
+    100068: softMod4Handle
+    100070: softMod5Handle
+    100072: softMod6Handle
+    100074: softMod7Handle
+    100076: softMod8Handle
+    100078: softMod9Handle
+    100080: transform1
+    100082: transform10
+    100084: transform11
+    100086: transform12
+    100088: transform13
+    100090: transform14
+    100092: transform2
+    100094: transform3
+    100096: transform4
+    100098: transform5
+    100100: transform6
+    100102: transform7
+    100104: transform8
+    100106: transform9
+    100108: //RootNode
+    400000: bend1Handle
+    400002: group
+    400004: group1
+    400006: group2
+    400008: pasted__group
+    400010: pasted__group1
+    400012: pasted__pasted__pCube4
+    400014: pasted__pasted__pCube4 1
+    400016: pasted__pCube4
+    400018: pasted__pCube4 1
+    400020: pasted__pCylinder1
+    400022: pasted__pSphere1
+    400024: pCube1
+    400026: pCube3
+    400028: pCube4
+    400030: pCube5
+    400032: pCylinder1
+    400034: polySurface1
+    400036: polySurface3
+    400038: pPipe1
+    400040: pSphere1
+    400042: pSphere2
+    400044: softMod10Handle
+    400046: softMod11Handle
+    400048: softMod12Handle
+    400050: softMod13Handle
+    400052: softMod14Handle
+    400054: softMod15Handle
+    400056: softMod16Handle
+    400058: softMod17Handle
+    400060: softMod18Handle
+    400062: softMod1Handle
+    400064: softMod2Handle
+    400066: softMod3Handle
+    400068: softMod4Handle
+    400070: softMod5Handle
+    400072: softMod6Handle
+    400074: softMod7Handle
+    400076: softMod8Handle
+    400078: softMod9Handle
+    400080: transform1
+    400082: transform10
+    400084: transform11
+    400086: transform12
+    400088: transform13
+    400090: transform14
+    400092: transform2
+    400094: transform3
+    400096: transform4
+    400098: transform5
+    400100: transform6
+    400102: transform7
+    400104: transform8
+    400106: transform9
+    400108: //RootNode
+    2300000: pasted__pasted__pCube4
+    2300002: pCube1
+    2300004: polySurface3
+    2300006: pPipe1
+    3300000: pasted__pasted__pCube4
+    3300002: pCube1
+    3300004: polySurface3
+    3300006: pPipe1
+    4300000: pCube1
+    4300002: pasted__pasted__pCube4
+    4300004: pPipe1
+    4300006: polySurface3
+    7400000: Take 001
+    7400002: Take 0010
+    7400004: Take 0011
+    7400006: Take 0012
+    7400008: Take 0013
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 1.10000002
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bend1Handle
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/pasted__pCube4
+        weight: 1
+      - path: group/pasted__pCube4/transform8
+        weight: 1
+      - path: group/pasted__pCylinder1
+        weight: 1
+      - path: group/pasted__pCylinder1/transform2
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/pasted__group
+        weight: 1
+      - path: group1/pasted__group/pasted__pasted__pCube4
+        weight: 1
+      - path: group1/pasted__pCube4 1
+        weight: 1
+      - path: group1/pasted__pCube4 1/transform10
+        weight: 1
+      - path: group1/pasted__pSphere1
+        weight: 1
+      - path: group1/pasted__pSphere1/transform5
+        weight: 1
+      - path: group2
+        weight: 1
+      - path: group2/pasted__group1
+        weight: 1
+      - path: group2/pasted__group1/pasted__pasted__pCube4 1
+        weight: 1
+      - path: group2/pasted__group1/pasted__pasted__pCube4 1/transform11
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pCube1/transform3
+        weight: 1
+      - path: pCube3
+        weight: 1
+      - path: pCube3/transform14
+        weight: 1
+      - path: pCube4
+        weight: 1
+      - path: pCube4/transform9
+        weight: 1
+      - path: pCube5
+        weight: 1
+      - path: pCube5/transform13
+        weight: 1
+      - path: pCylinder1
+        weight: 1
+      - path: pCylinder1/transform1
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: polySurface1/transform7
+        weight: 1
+      - path: polySurface3
+        weight: 1
+      - path: pPipe1
+        weight: 1
+      - path: pSphere1
+        weight: 1
+      - path: pSphere1/transform6
+        weight: 1
+      - path: pSphere1/transform12
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      - path: pSphere2/transform4
+        weight: 1
+      - path: softMod1Handle
+        weight: 1
+      - path: softMod2Handle
+        weight: 1
+      - path: softMod3Handle
+        weight: 1
+      - path: softMod4Handle
+        weight: 1
+      - path: softMod5Handle
+        weight: 1
+      - path: softMod6Handle
+        weight: 1
+      - path: softMod7Handle
+        weight: 1
+      - path: softMod8Handle
+        weight: 1
+      - path: softMod9Handle
+        weight: 1
+      - path: softMod10Handle
+        weight: 1
+      - path: softMod11Handle
+        weight: 1
+      - path: softMod12Handle
+        weight: 1
+      - path: softMod13Handle
+        weight: 1
+      - path: softMod14Handle
+        weight: 1
+      - path: softMod15Handle
+        weight: 1
+      - path: softMod16Handle
+        weight: 1
+      - path: softMod17Handle
+        weight: 1
+      - path: softMod18Handle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Take 0010
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bend1Handle
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/pasted__pCube4
+        weight: 1
+      - path: group/pasted__pCube4/transform8
+        weight: 1
+      - path: group/pasted__pCylinder1
+        weight: 1
+      - path: group/pasted__pCylinder1/transform2
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/pasted__group
+        weight: 1
+      - path: group1/pasted__group/pasted__pasted__pCube4
+        weight: 1
+      - path: group1/pasted__pCube4 1
+        weight: 1
+      - path: group1/pasted__pCube4 1/transform10
+        weight: 1
+      - path: group1/pasted__pSphere1
+        weight: 1
+      - path: group1/pasted__pSphere1/transform5
+        weight: 1
+      - path: group2
+        weight: 1
+      - path: group2/pasted__group1
+        weight: 1
+      - path: group2/pasted__group1/pasted__pasted__pCube4 1
+        weight: 1
+      - path: group2/pasted__group1/pasted__pasted__pCube4 1/transform11
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pCube1/transform3
+        weight: 1
+      - path: pCube3
+        weight: 1
+      - path: pCube3/transform14
+        weight: 1
+      - path: pCube4
+        weight: 1
+      - path: pCube4/transform9
+        weight: 1
+      - path: pCube5
+        weight: 1
+      - path: pCube5/transform13
+        weight: 1
+      - path: pCylinder1
+        weight: 1
+      - path: pCylinder1/transform1
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: polySurface1/transform7
+        weight: 1
+      - path: polySurface3
+        weight: 1
+      - path: pPipe1
+        weight: 1
+      - path: pSphere1
+        weight: 1
+      - path: pSphere1/transform6
+        weight: 1
+      - path: pSphere1/transform12
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      - path: pSphere2/transform4
+        weight: 1
+      - path: softMod1Handle
+        weight: 1
+      - path: softMod2Handle
+        weight: 1
+      - path: softMod3Handle
+        weight: 1
+      - path: softMod4Handle
+        weight: 1
+      - path: softMod5Handle
+        weight: 1
+      - path: softMod6Handle
+        weight: 1
+      - path: softMod7Handle
+        weight: 1
+      - path: softMod8Handle
+        weight: 1
+      - path: softMod9Handle
+        weight: 1
+      - path: softMod10Handle
+        weight: 1
+      - path: softMod11Handle
+        weight: 1
+      - path: softMod12Handle
+        weight: 1
+      - path: softMod13Handle
+        weight: 1
+      - path: softMod14Handle
+        weight: 1
+      - path: softMod15Handle
+        weight: 1
+      - path: softMod16Handle
+        weight: 1
+      - path: softMod17Handle
+        weight: 1
+      - path: softMod18Handle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Take 0011
+      takeName: Take 001
+      firstFrame: 10
+      lastFrame: 10.1000004
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bend1Handle
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/pasted__pCube4
+        weight: 1
+      - path: group/pasted__pCube4/transform8
+        weight: 1
+      - path: group/pasted__pCylinder1
+        weight: 1
+      - path: group/pasted__pCylinder1/transform2
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/pasted__group
+        weight: 1
+      - path: group1/pasted__group/pasted__pasted__pCube4
+        weight: 1
+      - path: group1/pasted__pCube4 1
+        weight: 1
+      - path: group1/pasted__pCube4 1/transform10
+        weight: 1
+      - path: group1/pasted__pSphere1
+        weight: 1
+      - path: group1/pasted__pSphere1/transform5
+        weight: 1
+      - path: group2
+        weight: 1
+      - path: group2/pasted__group1
+        weight: 1
+      - path: group2/pasted__group1/pasted__pasted__pCube4 1
+        weight: 1
+      - path: group2/pasted__group1/pasted__pasted__pCube4 1/transform11
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pCube1/transform3
+        weight: 1
+      - path: pCube3
+        weight: 1
+      - path: pCube3/transform14
+        weight: 1
+      - path: pCube4
+        weight: 1
+      - path: pCube4/transform9
+        weight: 1
+      - path: pCube5
+        weight: 1
+      - path: pCube5/transform13
+        weight: 1
+      - path: pCylinder1
+        weight: 1
+      - path: pCylinder1/transform1
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: polySurface1/transform7
+        weight: 1
+      - path: polySurface3
+        weight: 1
+      - path: pPipe1
+        weight: 1
+      - path: pSphere1
+        weight: 1
+      - path: pSphere1/transform6
+        weight: 1
+      - path: pSphere1/transform12
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      - path: pSphere2/transform4
+        weight: 1
+      - path: softMod1Handle
+        weight: 1
+      - path: softMod2Handle
+        weight: 1
+      - path: softMod3Handle
+        weight: 1
+      - path: softMod4Handle
+        weight: 1
+      - path: softMod5Handle
+        weight: 1
+      - path: softMod6Handle
+        weight: 1
+      - path: softMod7Handle
+        weight: 1
+      - path: softMod8Handle
+        weight: 1
+      - path: softMod9Handle
+        weight: 1
+      - path: softMod10Handle
+        weight: 1
+      - path: softMod11Handle
+        weight: 1
+      - path: softMod12Handle
+        weight: 1
+      - path: softMod13Handle
+        weight: 1
+      - path: softMod14Handle
+        weight: 1
+      - path: softMod15Handle
+        weight: 1
+      - path: softMod16Handle
+        weight: 1
+      - path: softMod17Handle
+        weight: 1
+      - path: softMod18Handle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Take 0012
+      takeName: Take 001
+      firstFrame: 11
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bend1Handle
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/pasted__pCube4
+        weight: 1
+      - path: group/pasted__pCube4/transform8
+        weight: 1
+      - path: group/pasted__pCylinder1
+        weight: 1
+      - path: group/pasted__pCylinder1/transform2
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/pasted__group
+        weight: 1
+      - path: group1/pasted__group/pasted__pasted__pCube4
+        weight: 1
+      - path: group1/pasted__pCube4 1
+        weight: 1
+      - path: group1/pasted__pCube4 1/transform10
+        weight: 1
+      - path: group1/pasted__pSphere1
+        weight: 1
+      - path: group1/pasted__pSphere1/transform5
+        weight: 1
+      - path: group2
+        weight: 1
+      - path: group2/pasted__group1
+        weight: 1
+      - path: group2/pasted__group1/pasted__pasted__pCube4 1
+        weight: 1
+      - path: group2/pasted__group1/pasted__pasted__pCube4 1/transform11
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pCube1/transform3
+        weight: 1
+      - path: pCube3
+        weight: 1
+      - path: pCube3/transform14
+        weight: 1
+      - path: pCube4
+        weight: 1
+      - path: pCube4/transform9
+        weight: 1
+      - path: pCube5
+        weight: 1
+      - path: pCube5/transform13
+        weight: 1
+      - path: pCylinder1
+        weight: 1
+      - path: pCylinder1/transform1
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: polySurface1/transform7
+        weight: 1
+      - path: polySurface3
+        weight: 1
+      - path: pPipe1
+        weight: 1
+      - path: pSphere1
+        weight: 1
+      - path: pSphere1/transform6
+        weight: 1
+      - path: pSphere1/transform12
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      - path: pSphere2/transform4
+        weight: 1
+      - path: softMod1Handle
+        weight: 1
+      - path: softMod2Handle
+        weight: 1
+      - path: softMod3Handle
+        weight: 1
+      - path: softMod4Handle
+        weight: 1
+      - path: softMod5Handle
+        weight: 1
+      - path: softMod6Handle
+        weight: 1
+      - path: softMod7Handle
+        weight: 1
+      - path: softMod8Handle
+        weight: 1
+      - path: softMod9Handle
+        weight: 1
+      - path: softMod10Handle
+        weight: 1
+      - path: softMod11Handle
+        weight: 1
+      - path: softMod12Handle
+        weight: 1
+      - path: softMod13Handle
+        weight: 1
+      - path: softMod14Handle
+        weight: 1
+      - path: softMod15Handle
+        weight: 1
+      - path: softMod16Handle
+        weight: 1
+      - path: softMod17Handle
+        weight: 1
+      - path: softMod18Handle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Take 0013
+      takeName: Take 001
+      firstFrame: 15
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bend1Handle
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/pasted__pCube4
+        weight: 1
+      - path: group/pasted__pCube4/transform8
+        weight: 1
+      - path: group/pasted__pCylinder1
+        weight: 1
+      - path: group/pasted__pCylinder1/transform2
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/pasted__group
+        weight: 1
+      - path: group1/pasted__group/pasted__pasted__pCube4
+        weight: 1
+      - path: group1/pasted__pCube4 1
+        weight: 1
+      - path: group1/pasted__pCube4 1/transform10
+        weight: 1
+      - path: group1/pasted__pSphere1
+        weight: 1
+      - path: group1/pasted__pSphere1/transform5
+        weight: 1
+      - path: group2
+        weight: 1
+      - path: group2/pasted__group1
+        weight: 1
+      - path: group2/pasted__group1/pasted__pasted__pCube4 1
+        weight: 1
+      - path: group2/pasted__group1/pasted__pasted__pCube4 1/transform11
+        weight: 1
+      - path: pCube1
+        weight: 1
+      - path: pCube1/transform3
+        weight: 1
+      - path: pCube3
+        weight: 1
+      - path: pCube3/transform14
+        weight: 1
+      - path: pCube4
+        weight: 1
+      - path: pCube4/transform9
+        weight: 1
+      - path: pCube5
+        weight: 1
+      - path: pCube5/transform13
+        weight: 1
+      - path: pCylinder1
+        weight: 1
+      - path: pCylinder1/transform1
+        weight: 1
+      - path: polySurface1
+        weight: 1
+      - path: polySurface1/transform7
+        weight: 1
+      - path: polySurface3
+        weight: 1
+      - path: pPipe1
+        weight: 1
+      - path: pSphere1
+        weight: 1
+      - path: pSphere1/transform6
+        weight: 1
+      - path: pSphere1/transform12
+        weight: 1
+      - path: pSphere2
+        weight: 1
+      - path: pSphere2/transform4
+        weight: 1
+      - path: softMod1Handle
+        weight: 1
+      - path: softMod2Handle
+        weight: 1
+      - path: softMod3Handle
+        weight: 1
+      - path: softMod4Handle
+        weight: 1
+      - path: softMod5Handle
+        weight: 1
+      - path: softMod6Handle
+        weight: 1
+      - path: softMod7Handle
+        weight: 1
+      - path: softMod8Handle
+        weight: 1
+      - path: softMod9Handle
+        weight: 1
+      - path: softMod10Handle
+        weight: 1
+      - path: softMod11Handle
+        weight: 1
+      - path: softMod12Handle
+        weight: 1
+      - path: softMod13Handle
+        weight: 1
+      - path: softMod14Handle
+        weight: 1
+      - path: softMod15Handle
+        weight: 1
+      - path: softMod16Handle
+        weight: 1
+      - path: softMod17Handle
+        weight: 1
+      - path: softMod18Handle
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

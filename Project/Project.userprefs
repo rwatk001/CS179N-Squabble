@@ -1,12 +1,6 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ryan\EndOfGame.js">
-    <Files>
-      <File FileName="Assets\Scripts\ryan\ScoreCountSheep.js" Line="28" Column="45" />
-      <File FileName="Assets\Scripts\ryan\CharacterExplode.js" Line="15" Column="47" />
-      <File FileName="Assets\Scripts\ryan\EndOfGame.js" Line="65" Column="3" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

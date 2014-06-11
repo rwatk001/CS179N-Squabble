@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Scripts\andrew\WallControl.cs">
+    <Files>
+      <File FileName="Assets\Standard Assets\Scripts\andrew\SpawnWallControl.cs" Line="83" Column="4" />
+      <File FileName="Assets\Standard Assets\Scripts\andrew\RunPlayerControl.cs" Line="149" Column="37" />
+      <File FileName="Assets\Standard Assets\Scripts\andrew\WallControl.cs" Line="28" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
